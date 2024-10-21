@@ -1,0 +1,165 @@
+@import "./fonts.css";
+@import "./navigation.css";
+@import "./homepage.css";
+@import "https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css";
+@import url("https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200");
+
+.app {
+  background-color: #ffffff;
+  height: 100vh;
+}
+
+.hover-title {
+  position: relative;
+}
+
+.hover-title::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 20%;
+  height: 2px;
+  background-color: #ff7063;
+  transition: width 0.6s;
+}
+
+.hover-title:hover::after {
+  width: 80%;
+}
+
+.headline-span {
+    color: #ff7063;
+}
+
+.overlined-title {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 80%;
+  height: 2px;
+  background-color: #ff7063;
+}
+
+/* #introduction {
+  background: rgb(74, 76, 245);
+  background: linear-gradient(
+    167deg,
+    rgba(74, 76, 245, 0.8702074579831933) 4%,
+    rgba(74, 76, 245, 0.8786108193277311) 42%
+  );
+  padding: 2rem 2rem 2rem 2rem;
+  border: transparent;
+  border-radius: 4rem 1rem 4rem 1rem;
+} */
+
+.text-block {
+  background: rgb(74, 76, 245);
+  color: #ffffff;
+  background: linear-gradient(
+    167deg,
+    rgba(74, 76, 245, 0.8702074579831933) 4%,
+    rgba(74, 76, 245, 0.8786108193277311) 42%
+  );
+  padding: 2rem 2rem 2rem 2rem;
+  border: transparent;
+  border-radius: 4rem 1rem 4rem 1rem;
+}
+.school-block {
+  margin-top: 5rem;
+}
+
+#groupImg {
+  border: 5px solid #ff7063;
+  padding: 0!important;
+}
+
+.button {
+  background-color: white;
+  border: solid 2px #ff7063;
+  border-radius: 0.2rem;
+  padding: 0.7rem 2.5rem 0.7rem 2.5rem;
+  -webkit-transition: all 0.2s ease-in;
+}
+
+.button:hover {
+  border: solid 2px white;
+  background-color: #ff7063;
+}
+
+.button-next {
+  background-color: white;
+  font-size: 2rem;
+  border: solid 2px #ff7063;
+  border-radius: 0.2rem;
+  padding: 0.7rem 2.5rem 0.7rem 2.5rem;
+  -webkit-transition: all 0.2s ease-in;
+}
+
+.button-next:hover {
+  border: solid 2px white;
+  background-color: #ff7063;
+}
+
+.button-info {
+  border: solid 2px white;
+  background-color: transparent;
+  border-radius: 2rem;
+  color: white;
+  width: 10rem;
+  padding: 0.5rem;
+  -webkit-transition: border 0.1s ease-in;
+}
+
+.button-info:hover {
+  border-color: #ff7063;
+}
+
+
+
+/* .arrows {
+    width: 100%;
+    height: 100%;
+    position: realtive;
+    left: 100%;
+  }
+  
+  .arrows path {
+    stroke: #ff7063;
+    fill: transparent;
+    stroke-width: 1px;  
+    animation: arrow 1s infinite;
+    -webkit-animation: arrow 2s infinite; 
+  }
+  
+  @keyframes arrow
+  {
+  0% {opacity:0}
+  40% {opacity:1}
+  80% {opacity:0}
+  100% {opacity:0}
+  }
+  
+  @-webkit-keyframes arrow 
+  {
+  0% {opacity:0}
+  40% {opacity:1}
+  80% {opacity:0}
+  100% {opacity:0}
+  }
+  
+  .arrows path.a1 {
+    animation-delay:-1s;
+    -webkit-animation-delay:-1s;
+  }
+  
+  .arrows path.a2 {
+    animation-delay:-0.5s;
+    -webkit-animation-delay:-0.5s; 
+  }
+  
+  .arrows path.a3 { 
+    animation-delay:0s;
+    -webkit-animation-delay:0s; 
+  } */

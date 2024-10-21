@@ -1,0 +1,38 @@
+.quiz_container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.quiz_element {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 45%; /* 45% width to leave some space in between */
+    box-sizing: border-box;
+    text-align: center;
+
+    margin: 5px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin: 10px 0;
+}
+
+input[type="radio"] {
+    margin-right: 5px;
+}
