@@ -6,6 +6,12 @@ const resultText = document.getElementById("resultText");
 const result = document.getElementById("result");
 const FINISH_MESSAGE = "Y";
 
+/*
+const dataFromAPI = fetchVideoFromAPI();
+
+console.log(dataFromAPI);
+*/
+
 let dataFromAPI;
 
 window.onload = async () => {
@@ -18,12 +24,16 @@ window.onload = async () => {
 
 
 
+
+
+
+
+
 //Set First Video
 
 //Fetches the Data from API
 async function fetchVideoFromAPI(){
     const response = await fetch(domainOfAPI);
-    console.log(response);
     const data = await response.json();
     return data
 }
