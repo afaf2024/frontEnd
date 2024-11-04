@@ -34,31 +34,28 @@
             <iframe
               id="video"
               class="embed-responsive-item"
-              src="https://player.vimeo.com/video/137857207"
+              src=""
               allowfullscreen
-            ></iframe>
+            ></iframe> 
+
+            <!--https://player.vimeo.com/video/137857207
+            -->
           </div>
           <div class="choice d-flex justify-content-center mt-1">
-            <button id="opt1-btn" class="btn btn-success choice-btn mx-3" onClick="onClick(this)" value="opt1">Option 1</button>
-            <button id="opt2-btn" class="btn btn-danger choice-btn mx-3" onClick="onClick(this)" value="opt2">Option 2</button>
+            <button id="opt1-btn" class="btn btn-success choice-btn mx-3" onClick="onClick(this)" value="opt1">True</button>
+            <button id="opt2-btn" class="btn btn-danger choice-btn mx-3" onClick="onClick(this)" value="opt2">False</button>
           </div>
+
+          <p id="resultText"></p>
+          <p id="result"></p> 
+
         </div>
-        <div class=" mt-5">
-          <h3>Fortschritt:</h3>
-        </div>
-        <div class="progress">
-          <div
-            id="progress"
-            class="progress-bar progress-bar-striped progress-bar-animated"
-            role="progressbar"
-            aria-valuenow="0"
-            aria-valuemin="0"
-            aria-valuemax="100"
-            style="width: 75%"
-          ></div>
         </div>
       </div>
     </div>
+    <!-- </div> -->
+
+    
 
     <script src="../main.js"></script>
     <script src="../assets/js/score.js"></script>
@@ -74,5 +71,6 @@
         insertNavigation();
       });
     </script>
+    <script src="../VideoGame/videoGameFunctions.js"></script>
   </body>
 </html>
