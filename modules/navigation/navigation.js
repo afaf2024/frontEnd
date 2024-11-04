@@ -3,6 +3,7 @@ function insertNavigation() {
     .then((response) => response.text())
     .then((data) => {
       document.getElementById("navigation").innerHTML = data;
+      initializeLanguagePicker();
     });
 }
 
@@ -25,7 +26,7 @@ if(link) {
   
     setTimeout(function () {
       fadeOut.style.opacity = "0";
-      window.location.href += "pages/homepage.html";
+      window.location.href = "pages/homepage.html";
     }, 1000);
   });
 }

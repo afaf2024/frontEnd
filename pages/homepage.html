@@ -20,7 +20,7 @@
         </div>
       </div>
       <div class="row mt-3">
-        <p id="introduction" class="text-light text-block">
+        <p id="introduction" class="text-light text-block" data-i18n-key="homepage-description">
           Hier auf dieser Seite triffst du auf Fake-News und wirst dabei geschult, wie du souveräner mit ihnen umgehen
           kannst. Es gibt verschiedene coole Methoden, um den Umgang mit Fake-News zu optimieren. Wir packen das Ganze
           spielerisch an, in Form eines Quizes und einem stylischen Szenen-Stop-Video.
@@ -145,7 +145,7 @@
     </div>
     <div class="container mb-5">
         <div class="row">
-            <div>
+
                 <!-- <p class="overlined-title"></p> -->
               <h1 class="display-5 hover-title  mt-5">
                 echte oder fake <br />
@@ -284,10 +284,11 @@
       
         </div>
       </div>
-    <script src="../assets/js/homepage.js"></script>
-    <script src="../main.js"></script>
-    <!-- <script src="../modules/news/news.js"></script> -->
     <script src="../modules/navigation/navigation.js"></script>
+    <script src="../assets/js/homepage.js"></script>
+    <script src="../assets/js/language.js"></script>
+    <!-- <script src="../modules/news/news.js"></script> -->
+
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
@@ -296,6 +297,8 @@
     <script type="module">
       window.addEventListener("load", function () {
         insertNavigation();
+
+
       });
     </script>
   </body>

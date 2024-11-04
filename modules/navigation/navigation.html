@@ -8,20 +8,13 @@
         <a class="nav-link mx-4 col-auto" href="about.html" tabindex="-1" aria-disabled="false">About Us</a>
       </div>
       <div class="language-nav mt-1">
-        <div class="dropdown">
-          <button class="language-btn" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-            <span class="lng-btn">Languages</span>
-            <div class="lng-arrow">
-              <!-- <span class="button-icon material-symbols-outlined">expand_more</span> -->
-            </div>
-          </button>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item lng-btn" href="#">DE</a></li>
-            <li><a class="dropdown-item lng-btn" href="#">EN</a></li>
-            <li><a class="dropdown-item lng-btn" href="#">ESP</a></li>
-            <li><a class="dropdown-item lng-btn" href="#">IT</a></li>
-          </ul>
-        </div>
+        <select class="language-btn locale-switcher" data-i18n-switcher class="">
+          <option value="en">English</option>
+          <option value="de">Deutsch</option>
+          <option value="es">Espanol</option>
+          <option value="it">Italiano</option>
+        </select>
+
       </div>
     </div>
   </div>

@@ -1,62 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Fake News</title>
-    <link rel="stylesheet" href="./assets/css/style.css" />
-  </head>
-  <body id="app">
-    <nav class="navbar navbar-expand-lg navbar-light mx-3 ">
-      <div class="collapse navbar-collapse d-flex justify-content-center" id="navbarNavAltMarkup">
-        <div class="navbar-nav flex-row">
-          <div class="language-nav mt-1 ">
-            <div class="dropdown ">
-              <button class="language-btn" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                <span class="lng-btn">Sprachen</span>
-                <div class="lng-arrow">
-                    <span class="button-icon material-symbols-outlined">expand_more</span>
-                </div>
-              </button>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item lng-btn" href="#">Deutsch</a></li>
-                <li><a class="dropdown-item lng-btn" href="#">English</a></li>
-                <li><a class="dropdown-item lng-btn" href="#">Espanol</a></li>
-                <li><a class="dropdown-item lng-btn" href="#">Italiano</a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-    </nav>
-    <div class="container d-flex mt-2">
-      <div class="flex-row mt-3">
-        <div class="col-auto d-flex justify-content-center">
-          <img class="img-fluid" height="500" width="500" src="assets/images/start.jpg" alt=" " />
-        </div>
-        <div  class="col-auto w-100 section">
-          <div id="introduction">
-            <p class="text-block">
-              Fake News sind irreführende oder erfundene Informationen, oft zur Manipulation. Möchtest du mehr über ihre
-              Auswirkungen und wie man sie erkennt, erfahren?
-            </p>
-          </div>
-        </div>
-        <div class="col-auto d-flex justify-content-center">
-          <a href="/Frontend/pages/homepage.html" id="link">
-            <button type="button" class="button-next mt-5">STARTEN</button>
-          </a>
-          <div id="fade-out"></div>
-        </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fake News</title>
+  <link rel="stylesheet" href="./assets/css/style.css" />
+</head>
+<body id="app">
+<nav class="navbar navbar-expand-lg navbar-light mx-3 ">
+  <div class="collapse navbar-collapse d-flex justify-content-center" id="navbarNavAltMarkup">
+    <div class="navbar-nav flex-row">
+      <div class="language-nav mt-1 ">
+        <select class="language-btn locale-switcher" data-i18n-switcher>
+          <option value="en">English</option>
+          <option value="de">Deutsch</option>
+          <option value="es">Espanol</option>
+          <option value="it">Italiano</option>
+        </select>
       </div>
     </div>
-    <script src="./main.js"></script>
-    <script src="./modules/navigation/navigation.js"></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-      crossorigin="anonymous"
-    ></script>
-    <script src="https://unpkg.com/@popperjs/core@2"></script>
-  </body>
+  </div>
+</nav>
+<div class="container d-flex mt-2">
+  <div class="flex-row mt-3">
+    <div class="col-auto d-flex justify-content-center">
+      <img class="img-fluid" height="500" width="500" src="assets/images/start.jpg" alt=" " />
+    </div>
+    <div  class="col-auto w-100 section">
+      <div id="introduction">
+        <p class="text-block" data-i18n-key="index-description">
+          Fake News sind irreführende oder erfundene Informationen, oft zur Manipulation. Möchtest du mehr über ihre
+          Auswirkungen und wie man sie erkennt, erfahren?
+        </p>
+      </div>
+    </div>
+   <!-- <div class="col-auto d-flex justify-content-center">
+      <a href="/Frontend/pages/homepage.html" id="link" >
+        <button type="button" class="button-next mt-5" data-i18n-key="index-startbutton">START</button>
+      </a>
+      <div id="fade-out"></div>
+    </div>-->
+
+    <div class="col-auto d-flex justify-content-center">
+      <a href="/pages/homepage.html" id="link" >
+        <button type="button" class="button-next mt-5" data-i18n-key="index-startbutton">START</button>
+      </a>
+      <div id="fade-out"></div>
+    </div>
+  </div>
+</div>
+<script src="assets/js/language.js"></script>
+<script src="./modules/navigation/navigation.js"></script>
+<script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"
+></script>
+<script src="https://unpkg.com/@popperjs/core@2"></script>
+<script type="module">
+  window.addEventListener("load", function () {
+    initializeLanguagePicker();
+  });
+</script>
+</body>
 </html>
