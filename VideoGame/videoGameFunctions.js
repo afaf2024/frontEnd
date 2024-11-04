@@ -1,31 +1,19 @@
 const domainOfAPI = "https://erasmus.ieszaidinvergeles.es/fakeNews/public/api/video";
 const videoContainer = document.getElementById("video");
-const videoBtn1 = document.getElementById("opt1-btn");
-const videoBtn2 = document.getElementById("opt2-btn");
+const nextButton = document.getElementById("nextButton");
+const backButton = document.getElementById("backButton");
 const resultText = document.getElementById("resultText");
 const result = document.getElementById("result");
 const FINISH_MESSAGE = "Y";
 
-/*
-const dataFromAPI = fetchVideoFromAPI();
-
-console.log(dataFromAPI);
-*/
-
-let dataFromAPI;
+let dataFromAPI; 
+let actualVideo = 0;
 
 window.onload = async () => {
     dataFromAPI = await fetchVideoFromAPI();
     console.log(dataFromAPI);
-    setVideo(0);
+    setVideo(actualVideo);
 };
-
-
-
-
-
-
-
 
 
 
@@ -40,38 +28,62 @@ async function fetchVideoFromAPI(){
 
 async function setVideo(idVideo){
     videoContainer.src = dataFromAPI[idVideo].videoUrl;
-    videoBtn1.innerText = dataFromAPI[idVideo].buttonOption1;
-    videoBtn1.value = dataFromAPI[idVideo].videoUrlOption1;
-    videoBtn2.innerText = dataFromAPI[idVideo].buttonOption2;
-    videoBtn2.value = dataFromAPI[idVideo].videoUrlOption2;
+    nextButton.innerText = dataFromAPI[idVideo].buttonOption1;
+    backButton.innerText = dataFromAPI[idVideo].buttonOption2;
+    actualVideo = idVideo;
 }
 
 
 
 //Sets the Video Changes for when a new Video is Selected
 async function changeVideo(newVideoId){
-
-    
-    if(dataFromAPI[newVideoId-1].resultText != ""){
-        console.log("Result Text: " + dataFromAPI[newVideoId-1].resultText);
-        resultText.innerText = dataFromAPI[newVideoId-1].resultText;
-        resultText.style.color = "black";
-        resultText.style.textAlign = "center";
-        document.getElementById("result").style.display = "block";
-        videoBtn1.style.display = "none";
-        videoBtn2.style.display = "none";
-        
-    }
-
     setVideo(newVideoId-1);
-    
+}
+
+function finished (){
+    resultText.innerText = "You have finished the game!";
+    nextButton.style.display = "none";
+    backButton.style.display = "none";
+    result.style.display = "none";
 }
 
 
+async function nextVideo(id){
 
-async function onClick(button){
+    console.log(id)
+    console.log(actualVideo)
+
+    if(id === 1){
+
+        actualVideo = dataFromAPI[actualVideo].videoUrlOption1;
+
+        if(!actualVideo){
+
+            finished();
+
+        } else {
+            changeVideo(parseInt(actualVideo));
+        }
 
 
-    changeVideo(button.value);
-    
+
+
+    } else {
+
+        actualVideo = dataFromAPI[actualVideo].videoUrlOption2;
+
+        if(!actualVideo){
+
+            finished();
+
+        } else {
+            changeVideo(parseInt(actualVideo));
+        }
+
+
+
+
+        
+    }
+
 }
