@@ -28,7 +28,7 @@
 .about-content img{
     max-height:158px;
     max-width: fit-content;
-    margin:auto;
+    margin:auto auto auto 0;
 }
 
 .about-school{
@@ -43,5 +43,9 @@
 
     .about-text{
         margin: 1rem 0 !important;
+    }
+
+    .about-content img{
+        margin: auto !important;
     }
 }
