@@ -1,0 +1,25 @@
+.title-img{
+    margin-left: 5rem !important;
+}
+.title-text{
+    margin-left: 7rem !important;
+    margin-top: -0.5rem !important;
+    color: #1e335e;
+    font-size:1.5rem;
+}
+
+.about-text{
+    background-color:#A7D2E2;
+    border-radius: 10px;
+    padding: 0.5rem  1.5rem !important;
+}
+
+.about-text p{
+    color: black !important;
+    font-size: 1rem;
+}
+
+.about-link{
+    width: fit-content;
+    margin: auto !important;
+}
