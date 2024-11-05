@@ -1,0 +1,47 @@
+.title-text{
+    margin-left: 2rem !important;
+    margin-top: -0.5rem !important;
+    color: #1e335e;
+    font-size:1.5rem;
+}
+
+.about-text{
+    background-color:#A7D2E2;
+    border-radius: 10px;
+    padding: 0.5rem  1.5rem !important;
+    max-height: fit-content;
+    margin: auto !important;
+    margin-right: 0 !important ;
+}
+
+.about-text p{
+    color: black !important;
+    font-size: 1rem;
+}
+
+.about-link{
+    display: block;
+    width: fit-content;
+    margin: auto !important;
+}
+
+.about-content img{
+    max-height:158px;
+    max-width: fit-content;
+    margin:auto;
+}
+
+.about-school{
+    margin: 2rem 0;
+}
+
+@media (max-width:1200px){
+    .title{
+        width: fit-content;
+        margin: 0 auto !important;
+    }
+
+    .about-text{
+        margin: 1rem 0 !important;
+    }
+}
