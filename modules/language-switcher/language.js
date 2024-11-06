@@ -1,6 +1,6 @@
 // The locale our app first shows
 const defaultLocale = "en";
-const supportedLocales = ["en", "de", "es", "it"];
+const supportedLocales = ["en"];
 
 // The active locale
 let locale;
@@ -30,8 +30,9 @@ function isSupported(locale) {
 }
 
 /**
- *  Retrieve the first locale we support from the given
- * array, or return our default locale
+ *  Retrieve language stored in webstorage or
+ *  the locale which is set according to browser or
+ *  return our default locale
  * @param locales the local (e.g: de,en) which support we want to check
  * @returns {string|*|string} a local that we support
  */
