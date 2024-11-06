@@ -22,42 +22,54 @@
 }
 
 #game-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background-color: #a1a1a1;
     width: 80%;
     border-radius: 2.5rem;
     align-self: center;
+
+
+
+
 }
+
 
 
 #game-image {
 
-    
-    min-height: 30rem;
-    height: 30rem;
-    max-height: 30rem;
 
-    margin-left: 15rem;
-    margin-right: 15rem;
+
+
+    width: 45vw !important;
+    height: 50vh !important;
 
     background-color: black;
 
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
+}
+
+#game-objective {
+font-size: 1.2rem;
 }
 
 #button-section {
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: row nowrap;
     justify-content: space-evenly;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
+
+.quizButton
 
 #quizTestText {
     font-size: 1.5rem;
     text-align: center;
-    padding-bottom: 0;
+
 }
 
 #video-section {
@@ -72,6 +84,81 @@
 
 #page-title {
     display: flex;
+    align-items: center;
+    gap: 8%;
 }
 
-#page-title-column {}
+
+@media screen and (max-width: 768px) {
+    #main-Section {
+        margin: 10px 15px;
+    }
+
+    #page-title {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #afaf-gametitle {
+        font-size: 1.2rem;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    #game-section {
+        width: 95%;
+        border-radius: 1rem;
+        padding: 10px;
+    }
+
+    #game-image {
+        width: 60vw !important;
+        height: 25vh !important;
+    }
+
+    #quizTestText {
+        font-size: 1rem;
+        padding: 10px;
+    }
+
+    #button-section {
+        width: 100%;
+        padding: 0 10px;
+    }
+
+    .quizButton {
+        width: 45%;
+        max-width: 150px;
+    }
+
+    .quizButton img {
+        width: 100%;
+        height: auto;
+    }
+
+    #game-objective {
+        width: 100%;
+        margin: 10px 0;
+        text-align: center;
+    }
+
+    #-page-title-column img {
+        max-width: 80%;
+        height: auto;
+    }
+}
+
+/* For extra small phones */
+@media screen and (max-width: 480px) {
+    #game-image {
+        height: 30vh !important;
+    }
+
+    #quizTestText {
+        font-size: 0.9rem;
+    }
+
+    .quizButton {
+        width: 40%;
+    }
+}
