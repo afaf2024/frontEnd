@@ -22,6 +22,26 @@
   padding-right: 20px !important;
 }
 
+.nav-language{
+  display: inline-block;
+  position: relative;
+  text-decoration: none;
+  color: black !important;
+  transition: color 0.5s;
+  border: none;
+  max-height: 30px;
+  padding-top: 0 !important;
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+}
+
+
+.nav-language-button{
+  padding-top: 0px;
+}
+
+
+
 .nav-link::before {
   content: "";
   position: absolute;
