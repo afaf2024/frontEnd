@@ -1,5 +1,55 @@
 {
   "index-startbutton": "Start",
-  "index-description": "Fake news are misleading or fabricated information, often intended to manipulate. Would you like to learn more about their effects and how to recognize them?",
-  "homepage-description" : "Here on this page, you’ll encounter fake news and receive training on how to handle it more confidently. There are various cool methods to improve your approach to dealing with fake news. We tackle it all playfully, in the form of a quiz and a stylish freeze-frame video."
+  "index-description": "Fake news are misleading or fabricated information, often intended for manipulation. Would you like to learn more about their impact and how to recognize them?",
+
+  "homepage-description": "Here on this page, you'll encounter fake news and be trained on how to deal with them more confidently. There are several cool methods to optimize handling fake news. We're taking a playful approach, through a quiz and a stylish scene-stop video.",
+
+
+  "gamepage-title": "Why Games?",
+  "gamepage-description": "Learning about fake news can be overwhelming, but who says it can't be fun? Test your detective skills with our interactive game! Choose your game – we have different types of images and videos, even news... \nCan you tell the true from the false? \nThis game is a great way to: \n- Sharpen your critical thinking skills. \n- Learn how to spot warning signs in online information. \n- Become an informed citizen in the digital age. \n\nIf you enjoyed the games, don't stop! We have various pages, information, guides, and online tools you can use on our site to protect yourself from fake content in the information age. Check out the rest of our site!\n",
+
+  "informationpage-title": "Information",
+  "informationpage-masquerade-title": "The Mask of Manipulation:",
+  "informationpage-masquerade-description": "Fake news are evident lies, but manipulation can be subtler. It distorts facts or uses emotional triggers to influence your opinion. Learn to recognize these tactics to become an informed citizen. Sadly, there are no online tools to aid you on this matter, but we all have the power to defend ourselves. Here are some strategies:\n",
+  "informationpage-masquerade-bp1-title": "Sharpen your critical thinking:",
+  "informationpage-masquerade-bp1-content": "Don't believe everything you see. Question the source, the evidence presented, and possible biases.\n",
+  "informationpage-masquerade-bp2-title": "Check your sources:",
+  "informationpage-masquerade-bp2-content": "Don't rely on a single source for information. Verify statements by consulting reputable news organizations and fact-checking websites.\n",
+  "informationpage-masquerade-bp3-title": "Prefer established names:",
+  "informationpage-masquerade-bp3-content": "Favor information from reputable news organizations with a history of journalistic integrity.",
+  "informationpage-masquerade-bp4-title": "Check authorship:",
+  "informationpage-masquerade-bp4-content": "Identify the author and their qualifications. Are they an expert in the field?",
+  "informationpage-masquerade-bp5-title": "Consider the funding sources:",
+  "informationpage-masquerade-bp5-content": "Check who funds the information source. This can reveal potential biases.",
+  "informationpage-masquerade-bp6-title": "If you're unsure, DON'T SHARE:",
+  "informationpage-masquerade-bp6-content": "This helps others! If after applying the above strategies, you're still not 100% sure, simply don't spread it!",
+
+  "informationpage-tools-title": "Tools for Truth:",
+  "informationpage-tools-description": "Here are some resources to check facts, fake images/videos... Please note that these tools are not foolproof, and should be used in combination with the strategies discussed above. This way, we'll be more prepared to fight misinformation.",
+  "informationpage-tools-dfandffc-bp1-title": "Google Reverse Image Search:",
+  "informationpage-tools-dfandffc-bp1-content": "This free tool allows you to upload an image or provide a URL to see if it appears elsewhere online. It can help identify the original source and possible manipulations. \n  URL: [https://images.google.com/](https://images.google.com/)\n",
+  "informationpage-tools-dfandffc-bp2-title": "TinEye",
+  "informationpage-tools-dfandffc-bp2-content": "Similar to Google Reverse Image Search, TinEye searches the web for similar images. It can be helpful in uncovering the origin of photos and possible edits. \n  URL: [https://tineye.com/](https://tineye.com/)\n",
+  "informationpage-tools-dfandffc-bp3-title": "InVID WeVerify:",
+  "informationpage-tools-dfandffc-bp3-content": "This browser extension from AFP helps to analyze videos for signs of manipulation. It provides tips and resources to detect deepfakes. \n  URL: [https://www.invid-project.eu/tools-and-services/invid-verification-plugin/](https://www.invid-project.eu/tools-and-services/invid-verification-plugin/)\n",
+  "informationpage-tools-dfandffc-bp4-title": "Sensity AI:",
+  "informationpage-tools-dfandffc-bp4-content": "This is a more advanced tool used by professionals, although it offers a free trial. It can analyze images and videos for signs of manipulation, including deepfakes. \n  URL: [https://sensity.ai/](https://sensity.ai/)\n",
+
+  "informationpage-factchecker-title": "Fake Fact Checkers:",
+  "informationpage-factchecker-bp1-title": "Snopes:",
+  "informationpage-factchecker-bp1-description": "A well-established website that debunks myths, urban legends, and misinformation. \n  URL: [https://www.snopes.com/](https://www.snopes.com/)\n",
+  "informationpage-factchecker-bp2-title": "PolitiFact:",
+  "informationpage-factchecker-bp2-description": "This fact-checking site focuses on verifying the accuracy of claims made by politicians. \n  URL: [https://www.politifact.com/](https://www.politifact.com/)\n",
+  "informationpage-factchecker-bp3-title": "FactCheck.org:",
+  "informationpage-factchecker-bp3-description": "This nonprofit organization verifies statements made in the news and by public figures. \n  URL: [https://www.factcheck.org/](https://www.factcheck.org/)\n",
+  "informationpage-factchecker-bp4-title": "International Fact-Checking Network:",
+  "informationpage-factchecker-bp4-description": "This website offers a directory of fact-checking organizations worldwide, so you can find resources in your specific language or region. \n  URL: [https://ifcncodeofprinciples.poynter.org/](https://ifcncodeofprinciples.poynter.org/)\n",
+
+  
+
+  "whowearepage-title": "Why We Fight:",
+  "whowearepage-description": "Protecting the truth in the digital age. In today’s information age, we are bombarded with a constant flood of news. But, is all of this true? Unfortunately, no. We face a growing threat: fake news. Fake news goes beyond misleading headlines. It consists of entirely fabricated information often disguised as legitimate news sources. This makes them even more dangerous as they can easily be manipulated through biased framing or selective omission of facts. We are not only bombarded with fake texts, but also fake images, videos, and more. The consequences of fake news are real and can be far-reaching. They can influence public opinion on critical issues, affect elections, and even incite violence. That’s why we’re launching this project. We believe education has the power to fight back. Join us as we raise awareness about fake news and equip everyone with the tools to distinguish truth from fiction.\n"
+
+
+
 }
