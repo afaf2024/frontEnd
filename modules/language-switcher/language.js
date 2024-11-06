@@ -1,6 +1,6 @@
 // The locale our app first shows
 const defaultLocale = "en";
-const supportedLocales = ["en", "de"];
+const supportedLocales = ["en", "de", "es", "it"];
 
 // The active locale
 let locale;
