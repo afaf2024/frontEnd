@@ -106,6 +106,7 @@ html{
 
 .navbar-logo{
   width: auto !important;
+  max-width: 60px !important;
   height: 80px !important;
   margin-right: 2rem !important;
 }
@@ -118,6 +119,7 @@ html{
   margin-top: 25px !important;
   margin-left: 10px !important;
   width: fit-content;
+  max-width: 100px;
 }
 
 .lng-arrow{
@@ -127,6 +129,7 @@ html{
 
 
 .nav-burger{
+  max-width: 40px;
   max-height: 32px;
   border: none;
   background-color: white;
