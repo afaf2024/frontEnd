@@ -17,32 +17,59 @@ function initializeLanguagePicker() {
     // Translate the page to the default locale
     setLocale(initialLocale);
 
-    bindLocaleSwitcher(initialLocale);
+    initializeLanguageDropdown(initialLocale);
 };
 
+/**
+ * Check if the locale is supported
+ * @param locale the locale that we want to check
+ * @returns {boolean} false if not supported. true otherwise
+ */
 function isSupported(locale) {
     return supportedLocales.indexOf(locale) > -1;
 }
-// Retrieve the first locale we support from the given
-// array, or return our default locale
+
+/**
+ *  Retrieve the first locale we support from the given
+ * array, or return our default locale
+ * @param locales the local (e.g: de,en) which support we want to check
+ * @returns {string|*|string} a local that we support
+ */
 function supportedOrDefault(locales) {
     return localStorage.getItem("lang") || locales.find(isSupported) || defaultLocale;
 }
 
-// ...
-// Whenever the user selects a new locale, we
-// load the locale's translations and update
-// the page
-function bindLocaleSwitcher(initialValue) {
-    const switcher =
-        document.querySelector("[data-i18n-switcher]");
-    switcher.value = initialValue;
-    switcher.onchange = (e) => {
-        // Set the locale to the selected option[value]
-        localStorage.setItem("lang", e.target.value)
-        setLocale(e.target.value);
-    };
-}
+
+
+
+/**
+ * Whenever the user selects a new locale, we
+ * load the locale's translations and update
+ * the page
+ */
+function initializeLanguageDropdown(initialLocale) {
+    const dropdownItems = document.querySelectorAll('.dropdown-item');
+    const dropdownToggle = document.getElementById('countryDropdown');
+    const initialLanguageElement = document.querySelector('#language-' + initialLocale )
+    const initialFlag = initialLanguageElement.querySelector('.fi').className
+    const initialText =initialLanguageElement.innerText
+    dropdownToggle.innerHTML = `<span class="${initialFlag}"></span> ${initialText}`
+
+    dropdownItems.forEach(item => {
+        item.addEventListener('click', function (e) {
+            e.preventDefault();
+            const selectedFlag = this.querySelector('.fi').className;
+            const selectedText = this.innerText;
+            const selectedLanguage = this.dataset.value;
+
+            // Set the locale to the selected option[value]
+            localStorage.setItem("lang", selectedLanguage)
+            setLocale(selectedLanguage);
+            // Update the dropdown button with the selected country
+            dropdownToggle.innerHTML = `<span class="${selectedFlag}"></span> ${selectedText}`;
+        });
+    });
+};
 
 
 /**

@@ -39,6 +39,26 @@ html{
   padding-right: 20px !important;
 }
 
+.nav-language{
+  display: inline-block;
+  position: relative;
+  text-decoration: none;
+  color: black !important;
+  transition: color 0.5s;
+  border: none;
+  max-height: 30px;
+  padding-top: 0 !important;
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+}
+
+
+.nav-language-button{
+  padding-top: 0px;
+}
+
+
+
 .nav-link::before {
   content: "";
   position: absolute;
@@ -106,6 +126,7 @@ html{
 
 .navbar-logo{
   width: auto !important;
+  max-width: 60px !important;
   height: 80px !important;
   margin-right: 2rem !important;
 }
@@ -114,8 +135,8 @@ html{
   margin-top: 20px !important;
 }
 
-.language-nav{
-  margin-top: 25px !important;
+.nav-language{
+  margin-top: 20px !important;
   margin-left: 10px !important;
   width: fit-content;
 }
@@ -127,6 +148,7 @@ html{
 
 
 .nav-burger{
+  max-width: 40px;
   max-height: 32px;
   border: none;
   background-color: white;
@@ -150,7 +172,7 @@ html{
     padding: 0px 80px !important;
   }
 
-  .language-nav{
+  .nav-language{
     margin-left: auto !important;
   }
 }
