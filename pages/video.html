@@ -16,42 +16,48 @@
   <div id="navigation"></div>
 
 
-  
 
-  
-    <div id="main-Section">
-      <div id="page-title">
+
+
+  <div id="main-Section">
+    <div id="page-title">
+      <div id="-page-title-column">
         <img src="../Erasmus/Title.png" alt="afaf-logo">
-        <h2 id="afaf-gametitle">Interactive video</h2>
+        <h2 id="afaf-gametitle">Quiz - true or false?</h2>
       </div>
-      <div id="game-section-flex">
-        <div id="game-section">
-          <div id="video-section">
-            <div class="embed-responsive embed-responsive-16by9 d-flex justify-content-center">
-              <div id="video-page-content">
-                <div id="loader"></div>
-                <iframe id="video" class="embed-responsive-item" style="display: none;" src="" allowfullscreen ></iframe>
-                <!--https://player.vimeo.com/video/137857207
+      <div id="game-objective">Text explainging the purpose of the game</div>
+    </div>
+    <div id="game-section-flex">
+      <div id="game-section">
+        <div id="video-section">
+          <div class="embed-responsive embed-responsive-16by9 d-flex justify-content-center">
+            <div id="video-page-content">
+              <div id="loader"></div>
+              <iframe id="video" class="embed-responsive-item" style="display: none;" src="" allowfullscreen></iframe>
+              <!--https://player.vimeo.com/video/137857207
                     -->
-              </div>
-             
             </div>
+
           </div>
-
-          <button id="nextButton" class="btn btn-success choice-btn mx-3" onClick="nextVideo(1)">Truee</button>
-          <button id="backButton" class="btn btn-danger choice-btn mx-3" onClick="nextVideo(2)">False</button>
         </div>
-
-        
-
-
-
-        <p id="resultText"></p>
-        <p id="result"></p>
-
+        <div id="button-section" style="margin-top: 25px;">
+          <button id="nextButton" class="btn btn-success choice-btn mx-3" onClick="nextVideo(1)">Option 1</button>
+          <button id="backButton" class="btn btn-danger choice-btn mx-3" onClick="nextVideo(2)">Option 2</button>
+          <p id="resultText"></p>
+          <p id="result"></p>
+        </div>
       </div>
+
+
+
+
+
+      
+   
 
     </div>
+
+  </div>
   </div>
   <div id="footerBox"></div>
 

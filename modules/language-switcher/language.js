@@ -133,6 +133,6 @@ function translateElement(element) {
 
     const translation = translations[key];
 
-    element.innerText = translation;
+    element.innerHTML = translation;
 
 }

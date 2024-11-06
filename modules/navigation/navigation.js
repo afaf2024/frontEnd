@@ -44,3 +44,4 @@ function burgerMenu(){
   navList.classList.toggle("d-none");
   navList.classList.toggle("d-block");
 }
+

@@ -2,8 +2,6 @@ const domainOfAPI = "https://cgarort2508.ieszaidinvergeles.es/FakeNews/fakeNews/
 const questionContainer = document.getElementById("contentQuestion");
 let currentQuestionAnswer; //Saves the answer of the current Question on the Website
 let currentQuestionExplenation; //Saves the explenation of the current Question on the Website
-
-
 window.onload = () => {
   setNewQuestion();
 };
@@ -15,6 +13,7 @@ async function setNewQuestion(){
     // let xy = data[0];
     //Set global variables
 
+    
 
     console.log(data);
 
