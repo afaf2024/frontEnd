@@ -39,6 +39,10 @@ html{
   padding-right: 20px !important;
 }
 
+.nav-link:hover{
+  color: white !important;
+}
+
 .nav-language{
   display: inline-block;
   position: relative;
@@ -70,32 +74,35 @@ html{
   transition: width 0.3s;
 }
 
-.nav-link:hover {
-  color: #ff7063 !important;
-}
-
-.nav-link:hover::before {
-  width: 100%;
-  background: #ff7063;
-}
-
 .nav-red{
   border-color: #e20613;
+}
+.nav-red:hover{
+  background-color: #e20613;  
 }
 .nav-orange{
   border-color: #e8481d;
 }
+.nav-orange:hover{
+  background-color: #e8481d;  
+}
 .nav-yellow{
   border-color: #f59c2c;
+}
+.nav-yellow:hover{
+  background-color: #f59c2c;  
 }
 .nav-green{
   border-color: #00964f;
 }
+.nav-green:hover{
+  background-color: #00964f;  
+}
 .nav-blue{
   border-color: #2ea1d9;
 }
-.nav-purple{
-  border-color: #8e1e80;
+.nav-blue:hover{
+  background-color: #2ea1d9;  
 }
 
 .material-symbols-outlined {

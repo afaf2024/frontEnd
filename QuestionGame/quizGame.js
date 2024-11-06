@@ -2,6 +2,9 @@ let question;
 let assignedQuestion = 0;
 let correctAnswer;
 let score = 0;
+
+let currentLenguage = localStorage.getItem("lang"); //Saves the current Lenguage of the Website
+
 let defaultImage =
     'https://as1.ftcdn.net/v2/jpg/01/34/02/24/1000_F_134022431_DCaIkrIQ2x0QV6qZpmhSaF5mc9I3YOkc.jpg';
 const loader = document.getElementById("loader");
@@ -11,7 +14,7 @@ const image = document.getElementById("quizTestImage");
 
 
 async function init () {
-    const response = await fetch('https://erasmus.ieszaidinvergeles.es/fakeNews/public/api/quizimg/it');
+    const response = await fetch(`https://erasmus.ieszaidinvergeles.es/fakeNews/public/api/quizimg/${currentLenguage}`);
     const text = await response.json();
     game(text);
     await new Promise(r => setTimeout(r, 400));
