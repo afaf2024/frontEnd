@@ -30,3 +30,12 @@ if(link) {
     }, 1000);
   });
 }
+
+
+
+function burgerMenu(){
+  const navList = document.getElementById("nav-list");
+
+  navList.classList.toggle("d-none");
+  navList.classList.toggle("d-block");
+}
