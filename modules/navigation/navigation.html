@@ -1,14 +1,14 @@
 <nav class="navbar navbar-expand-lg navbar-light mx-3">
-  <div class="collapse navbar-collapse d-flex justify-content-center" id="navbarNavAltMarkup">
-    <div class="navbar-nav">
+  <div class="collapse navbar-collapse d-flex justify-content-xl-center" id="navbarNavAltMarkup">
+    <div class="navbar-nav mx-xl-auto">
       <img src="..\assets\images\Logo.png" alt="Logo" class="navbar-logo">
-      <div class="row">
-        <a class="nav-link nav-red mx-2 col-auto" href="homepage.html" tabindex="-1" aria-disabled="false">Homepage</a>
-        <a class="nav-link nav-orange mx-2 col-auto" href="video.html" tabindex="-1" aria-disabled="false">Video-Game</a>
-        <a class="nav-link nav-yellow mx-2 col-auto" href="quiz.html" tabindex="-1" aria-disabled="false">Quiz-Game</a>
-        <a class="nav-link nav-green mx-2 col-auto" href="information.html" tabindex="-1" aria-disabled="false">Information</a>
-        <a class="nav-link nav-blue mx-2 col-auto" href="about.html" tabindex="-1" aria-disabled="false">About Us</a>
-        <a class="nav-link nav-purple mx-2 col-auto" href="contact.html" tabindex="-1" aria-disabled="false">Contacts</a>
+      <div class="row d-none d-xl-flex" id="nav-list">
+        <a class="nav-link nav-red mx-2 my-2 col-sm-12 col-xl-auto" href="homepage.html" tabindex="-1" aria-disabled="false">Homepage</a>
+        <a class="nav-link nav-orange mx-2 my-2 col-sm-12 col-xl-auto" href="video.html" tabindex="-1" aria-disabled="false">Video-Game</a>
+        <a class="nav-link nav-yellow mx-2 my-2 col-sm-12 col-xl-auto" href="quiz.html" tabindex="-1" aria-disabled="false">Quiz-Game</a>
+        <a class="nav-link nav-green mx-2 my-2 col-sm-12 col-xl-auto" href="information.html" tabindex="-1" aria-disabled="false">Information</a>
+        <a class="nav-link nav-blue mx-2 my-2 col-sm-12 col-xl-auto" href="about.html" tabindex="-1" aria-disabled="false">About Us</a>
+        <a class="nav-link nav-purple mx-2 my-2 col-sm-12 col-xl-auto" href="contact.html" tabindex="-1" aria-disabled="false">Contacts</a>
         <div class="dropdown nav-language mx-2 col-auto">
           <button class="btn dropdown-toggle nav-language-button" type="button" id="countryDropdown" data-bs-toggle="dropdown" aria-expanded="false">
             <span class="fi fi-de"></span> Deutschland
@@ -38,11 +38,11 @@
           </ul>
         </div>
       </div>
-      <div class="language-nav">
-
-
-
-      </div>
+      <button id="nav-burger" class="nav-burger d-xl-none" onclick="burgerMenu()">
+        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+          <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+        </svg>
+      </button>
     </div>
   </div>
 </nav>
