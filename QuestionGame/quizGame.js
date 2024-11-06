@@ -40,11 +40,11 @@ location.reload();
 function checkAnswer(buttonValidation) {
     hideButtons();
     if (question.correct === buttonValidation) {
-        document.getElementById('quizResult').textContent = 'Correct';
+        document.getElementById('quizResult').textContent = 'Why it is true';
         score++;
         document.getElementById('quizScore').textContent = 'Score: ' + score;
     } else {
-        document.getElementById('quizResult').textContent = 'Incorrect';
+        document.getElementById('quizResult').textContent = 'Why it is fake';
     }
     document.getElementById('quizExplanation').textContent = question.realNew;
     document.getElementById('quizExplanation').style.display = 'block';
@@ -83,4 +83,12 @@ function showQuestion(text) {
     document.getElementById('quizTestImage').src = question.img ? question.img : defaultImage;
     document.getElementById('quizTestText').textContent = question.question;
 }
+
+
+// function Scrolldown() {
+//     window.location.hash = '#game-section';
+// }
+
 window.onload = init();
+// window.onload = Scrolldown;
+

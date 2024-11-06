@@ -4,8 +4,13 @@ function insertNavigation() {
     .then((data) => {
       document.getElementById("navigation").innerHTML = data;
       initializeLanguagePicker();
+
     });
 }
+
+//----------------Language Code-----------------------
+
+
 
 const link = document.getElementById("link");
 const fadeOut = document.getElementById("fade-out");
