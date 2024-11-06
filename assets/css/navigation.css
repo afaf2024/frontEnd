@@ -3,57 +3,71 @@
   grid-template-columns: auto 1fr;
   justify-content: center;
   background-color: #ffffff;
-  border: 1px solid #ff7063;
-  border-radius: 1rem;
   padding: 0.2rem 1.2rem 0.2rem 1.2rem;
   -webkit-transition: all 0.5s ease;
-  transition: all 0.5s ease;
-}
-.language-btn:hover {
-  background-color: #ff7063;
-  border-color: white;
-}
-
-/* .lng-arrow {
-    margin-top: 0.2rem;
-} */
-
-.material-symbols-outlined {
-  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
-}
-
-.material-symbols-outlined {
-  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
+  border: none;
 }
 
 .nav-link {
-    display: inline-block;
-    position: relative;
-    text-decoration: none;
-    color: gray!important;
-    transition: color 0.5s;
+  display: inline-block;
+  position: relative;
+  text-decoration: none;
+  color: black !important;
+  transition: color 0.5s;
+  border: 2px solid;
+  border-radius: 20px;
+  max-height: 30px;
+  padding-top: 0 !important;
+  padding-left: 20px !important;
+  padding-right: 20px !important;
 }
 
 .nav-link::before {
-    content: "";
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 0;
-    height: 2px; 
-    background: #ff7063; 
-    transition: width 0.3s;
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px; 
+  background: #ff7063; 
+  transition: width 0.3s;
 }
 
 .nav-link:hover {
-    color: #ff7063!important;
+  color: #ff7063 !important;
 }
 
 .nav-link:hover::before {
-    width: 100%;
-    background: #ff7063;
+  width: 100%;
+  background: #ff7063;
 }
 
+.nav-red{
+  border-color: #e20613;
+}
+.nav-orange{
+  border-color: #e8481d;
+}
+.nav-yellow{
+  border-color: #f59c2c;
+}
+.nav-green{
+  border-color: #00964f;
+}
+.nav-blue{
+  border-color: #2ea1d9;
+}
+.nav-purple{
+  border-color: #8e1e80;
+}
+
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
+}
+
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
+}
 
 .fade-out {
   position: fixed;
@@ -71,4 +85,24 @@
   z-index: 9999;
   transition: all 1s ease;
   transform: scale(50);
+}
+
+.navbar-logo{
+  width: auto !important;
+  height: 80px !important;
+  margin-right: 2rem !important;
+}
+
+.row{
+  margin-top: 20px !important;
+}
+
+.language-nav{
+  margin-top: 25px !important;
+  margin-left: 10px !important;
+}
+
+.lng-arrow{
+  margin-top: 2px !important;
+  margin-left: 5px !important;
 }
