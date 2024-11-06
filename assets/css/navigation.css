@@ -5,7 +5,7 @@ html{
 .navbar{
   position: fixed !important;
   top: 0;
-  width: 100%;
+  width: 120%;
   background-color: white;
   display: block;
   z-index: 10;
