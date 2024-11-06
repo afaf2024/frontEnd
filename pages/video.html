@@ -13,32 +13,47 @@
 
 <body>
   <div id="navigation"></div>
-  <div class="container mt-2 d-flex justify-content-center align-items-center">
-    <div class="flex-row">
-      <img src="" alt="">
-      <div id="video-section ">
-        <div class="embed-responsive embed-responsive-16by9 d-flex justify-content-center">
-          <iframe id="video" class="embed-responsive-item" src="" allowfullscreen></iframe>
-          <!--https://player.vimeo.com/video/137857207
-            -->
-        </div>
-        <div class="choice d-flex justify-content-center mt-1">
-          <button id="nextButton" class="btn btn-success choice-btn mx-3" onClick="nextVideo(1)">True</button>
-          <button id="backButton" class="btn btn-danger choice-btn mx-3" onClick="nextVideo(2)">False</button>
-        </div>
 
-        <p id="resultText"></p>
-        <p id="result"></p>
+  
+    <div id="loader"></div>
+  
+    
 
+
+
+  <div id="video-page-content" style="display: none;">
+
+    <div class="container mt-2 d-flex justify-content-center align-items-center">
+      <div class="flex-row">
+        <img src="" alt="">
+        <div id="video-section ">
+          <div class="embed-responsive embed-responsive-16by9 d-flex justify-content-center">
+            <iframe id="video" class="embed-responsive-item" src="" allowfullscreen></iframe>
+            <!--https://player.vimeo.com/video/137857207
+              -->
+          </div>
+          <div class="choice d-flex justify-content-center mt-1">
+            <button id="nextButton" class="btn btn-success choice-btn mx-3" onClick="nextVideo(1)">True</button>
+            <button id="backButton" class="btn btn-danger choice-btn mx-3" onClick="nextVideo(2)">False</button>
+          </div>
+
+          <p id="resultText"></p>
+          <p id="result"></p>
+
+        </div>
       </div>
     </div>
   </div>
+
   </div>
+
+
+
   <!-- </div> -->
 
 
 
-  <script src="../main.js"></script>
+
   <script src="../assets/js/score.js"></script>
   <script src="../modules/navigation/navigation.js"></script>
   <!--<script src="../video.js"></script>-->

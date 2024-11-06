@@ -1,11 +1,17 @@
-const express = require('express');
+
+
+
+
 const path = require('path');
-
-var livereload = require("livereload");
-var connectLiveReload = require("connect-livereload");
-
-// cors 
+const express = require('express');
+const livereload = require('livereload');
+const connectLiveReload = require('connect-livereload');
 const cors = require('cors');
+
+
+
+
+
 const app = express();
 const PORT = 3000; 
 
