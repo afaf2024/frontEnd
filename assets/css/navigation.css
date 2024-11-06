@@ -70,15 +70,6 @@ html{
   transition: width 0.3s;
 }
 
-.nav-link:hover {
-  color: #ff7063 !important;
-}
-
-.nav-link:hover::before {
-  width: 100%;
-  background: #ff7063;
-}
-
 .nav-red{
   border-color: #e20613;
 }
