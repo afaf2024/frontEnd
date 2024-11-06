@@ -135,11 +135,10 @@ html{
   margin-top: 20px !important;
 }
 
-.language-nav{
-  margin-top: 25px !important;
+.nav-language{
+  margin-top: 20px !important;
   margin-left: 10px !important;
   width: fit-content;
-  max-width: 100px;
 }
 
 .lng-arrow{
@@ -173,7 +172,7 @@ html{
     padding: 0px 80px !important;
   }
 
-  .language-nav{
+  .nav-language{
     margin-left: auto !important;
   }
 }
