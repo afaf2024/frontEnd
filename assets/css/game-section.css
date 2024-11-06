@@ -64,7 +64,6 @@ font-size: 1.2rem;
     margin-bottom: 30px;
 }
 
-.quizButton
 
 #quizTestText {
     font-size: 1.5rem;
@@ -128,7 +127,7 @@ font-size: 1.2rem;
 
     .quizButton {
         width: 45%;
-        max-width: 150px;
+        max-width: 50px;
     }
 
     .quizButton img {
