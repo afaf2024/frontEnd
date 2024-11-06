@@ -3,6 +3,8 @@
 
 
 #video-page-content {
+  display: grid;
+  place-items: center;
   background-color: black;
   width: 45vw !important;
   height: 50vh !important;
@@ -36,7 +38,7 @@ background-color: green;
 #loader {
   
   
-
+  
 
 
 

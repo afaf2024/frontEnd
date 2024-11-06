@@ -3,6 +3,7 @@ const questionContainer = document.getElementById("contentQuestion");
 let currentQuestionAnswer; //Saves the answer of the current Question on the Website
 let currentQuestionExplenation; //Saves the explenation of the current Question on the Website
 
+
 window.onload = () => {
   setNewQuestion();
 };
@@ -13,6 +14,10 @@ async function setNewQuestion(){
     const data = await fetchQuestionFromAPI();
     // let xy = data[0];
     //Set global variables
+
+
+    console.log(data);
+
     let question = data.questions[0].question;
     currentQuestionAnswer = data.correct;
     currentQuestionExplenation = data.realNew; 

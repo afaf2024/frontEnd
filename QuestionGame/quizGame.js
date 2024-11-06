@@ -3,13 +3,23 @@ let assignedQuestion = 0;
 let correctAnswer;
 let score = 0;
 let defaultImage =
-        'https://as1.ftcdn.net/v2/jpg/01/34/02/24/1000_F_134022431_DCaIkrIQ2x0QV6qZpmhSaF5mc9I3YOkc.jpg';
+    'https://as1.ftcdn.net/v2/jpg/01/34/02/24/1000_F_134022431_DCaIkrIQ2x0QV6qZpmhSaF5mc9I3YOkc.jpg';
+const loader = document.getElementById("loader");
+const image = document.getElementById("quizTestImage");
 
-function init() {
-    fetch('https://erasmus.ieszaidinvergeles.es/fakeNews/public/api/quizimg')
-    .then(response => response.json())
-    .then(text => game(text));
+
+
+
+async function init () {
+    const response = await fetch('https://erasmus.ieszaidinvergeles.es/fakeNews/public/api/quizimg/it');
+    const text = await response.json();
+    game(text);
+    await new Promise(r => setTimeout(r, 400));
+    loader.style.display = "none";
+    image.style.display = "block";
 }
+
+
 
 function game(text) {
     //test2
@@ -30,7 +40,7 @@ function game(text) {
     //restart
     document.getElementById('quizButtonRestart').addEventListener('click', () => {
         document.getElementById('quizButtonRestart').style.display = 'none';
-location.reload();
+        location.reload();
     });
 
 
@@ -75,7 +85,7 @@ function nextQuestion(text) {
         document.getElementById('quizResult').textContent = '';
         showButtons();
     }
-document.getElementById('quizExplanation').style.display = 'none';
+    document.getElementById('quizExplanation').style.display = 'none';
 }
 
 function showQuestion(text) {
