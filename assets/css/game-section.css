@@ -9,6 +9,9 @@
 
 #afaf-gametitle {
     color: var(--bs-orange);
+    font-size: 1.5rem;
+    margin-left: 30px;
+    margin-bottom: 15px;
 }
 
 
@@ -18,7 +21,7 @@
     justify-content: center;
 }
 #game-section {
-    background-color: var(--bs-gray);
+    background-color: #a1a1a1;
     width: 80%;
 border-radius: 2.5rem;
 align-self: center;
@@ -28,7 +31,7 @@ align-self: center;
 display: flex;
 justify-content: center;
 align-items: center;
-margin: 50px;
+margin: 25px;
 }
 
 #button-section {
@@ -36,4 +39,13 @@ margin: 50px;
     flex-flow: row wrap;
     justify-content: space-evenly;
     margin-bottom: 50px;
+}
+#quizTestText {
+    font-size: 1.5rem;
+    text-align: center;
+    padding-bottom: 0;
+}
+
+#quizExplanation {
+    
 }
