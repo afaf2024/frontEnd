@@ -1,3 +1,20 @@
+html{
+  margin-top: 100px;
+}
+
+.navbar{
+  position: fixed !important;
+  top: 0;
+  width: 100%;
+  background-color: white;
+  display: block;
+  z-index: 10;
+}
+
+.navbar-nav{
+  width: fit-content;
+}
+
 .language-btn {
   display: grid;
   grid-template-columns: auto 1fr;
@@ -100,9 +117,40 @@
 .language-nav{
   margin-top: 25px !important;
   margin-left: 10px !important;
+  width: fit-content;
 }
 
 .lng-arrow{
   margin-top: 2px !important;
   margin-left: 5px !important;
+}
+
+
+.nav-burger{
+  max-height: 32px;
+  border: none;
+  background-color: white;
+  width: fit-content !important;
+  margin-top: 20px;
+  margin-right: 20px !important;
+}
+
+@media (max-width:1200px) {
+  .navbar-nav{
+    width: 100%;
+  }
+
+  #nav-list{
+    display: block;
+    width: fit-content;
+    margin-left: auto !important;
+  }
+
+  .nav-link{
+    padding: 0px 80px !important;
+  }
+
+  .language-nav{
+    margin-left: auto !important;
+  }
 }
