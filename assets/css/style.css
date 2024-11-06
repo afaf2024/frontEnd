@@ -138,6 +138,7 @@
   flex-flow: row nowrap;
   justify-content: space-between;
   gap: 300px;
+  box-sizing: border-box;
 }
 
 .foooterDesign a {

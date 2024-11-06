@@ -46,6 +46,12 @@ margin: 25px;
     padding-bottom: 0;
 }
 
-#quizExplanation {
-    
+#video-section {
+    margin-top: 50px;
+}
+
+
+#game-objective {
+    border: 1px solid red;
+
 }

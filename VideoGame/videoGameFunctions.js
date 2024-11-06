@@ -3,7 +3,9 @@ const videoContainer = document.getElementById("video");
 const nextButton = document.getElementById("nextButton");
 const backButton = document.getElementById("backButton");
 const resultText = document.getElementById("resultText");
-const videoPage = document.getElementById("video-page-content");
+
+const video = document.getElementById("video");
+
 const loader = document.getElementById("loader");
 const result = document.getElementById("result");
 const FINISH_MESSAGE = "Y";
@@ -23,7 +25,7 @@ window.onload = async () => {
     setVideo(actualVideo);
     console.log(dataFromAPI);
     loader.style.display = "none";
-    videoPage.style.display = "block";
+    video.style.display = "block";
     
 
 };

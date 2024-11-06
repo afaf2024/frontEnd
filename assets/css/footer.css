@@ -22,7 +22,7 @@
 }
 
 .footer-logos img {
-    max-height: 50px;
+    max-height: 500px;
 }
 
 #footer-line2 {
@@ -32,7 +32,8 @@
     width: 80%;
 }
 #erasmus-img {
-    width: 400px;
+    width: 286px;
+    height: 78px;
 }
 .logos img {
     background-color: white;

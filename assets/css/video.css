@@ -1,11 +1,20 @@
-body {
-  overflow: hidden;
-}
 
-#video {
+
+
+
+#video-page-content {
+  background-color: black;
   width: 45vw !important;
   height: 50vh !important;
 }
+
+#video {
+  background-color: black;
+  width: 45vw !important;
+  height: 50vh !important;
+}
+
+
 
 .choice-btn {
   font-size: 1.4rem;
@@ -13,45 +22,38 @@ body {
 
 
 
+
+
+
 #nextButton{
- 
-  position: absolute;
-  right: 0;
-  bottom: 20px;
+background-color: aqua;
 }
 
 #backButton{
-  
-  
-  position: absolute;
-  left: 0;
-  bottom: 20px;
-  
+background-color: green;
 }
 
 #loader {
-  position: absolute;
-  left: 0;
-  right: 0;
-  margin-left: auto;
-  margin-right: auto;
+  
+  
 
-  top: 40%;
 
-  border: 4px solid rgba(47, 143, 238, 0.531);
+
+
+  border: 4px solid rgb(255, 192, 192);
   border-left-color: transparent;
   border-radius: 50%;
 }
 
 #loader {
-  border: 4px solid rgba(47, 143, 238, 0.531);
+  border: 4px solid rgba(255, 38, 0, 0.531);
   border-left-color: transparent;
   width: 128px;
   height: 128px;
 }
 
 #loader {
-  border: 4px solid rgba(47, 143, 238, 0.531);
+  border: 4px solid rgb(255, 8, 8);
   border-left-color: transparent;
   width: 128px;
   height: 128px;
