@@ -132,6 +132,7 @@ html{
   background-color: white;
   width: fit-content !important;
   margin-top: 20px;
+  margin-right: 20px !important;
 }
 
 @media (max-width:1200px) {
