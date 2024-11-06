@@ -1,55 +1,34 @@
 {
-  "index-startbutton": "Empezar",
-  "index-description": "Las noticias falsas son información engañosa o inventada, a menudo con fines de manipulación. ¿Te gustaría saber más sobre su impacto y cómo reconocerlas?",
+  "index-startbutton": "Comenzar",
+  "index-description": "Las noticias falsas son información engañosa o fabricada, a menudo con la intención de manipular. ¿Te gustaría aprender más sobre su impacto y cómo reconocerlas?",
 
-  "homepage-description": "El proyecto, creado para promover la alfabetización mediática y combatir la desinformación, fue estructurado de modo que las tres escuelas de Italia, Alemania y España pudieran colaborar en una iniciativa internacional, intercambiando conocimientos y habilidades digitales. Cada escuela organizó reuniones en sus respectivos países para recibir a los estudiantes y profesores socios, facilitando talleres, conferencias y actividades prácticas centradas en reconocer y contrarrestar las noticias falsas. Aquí en esta página, encontrarás noticias falsas y recibirás formación sobre cómo lidiar con ellas de manera más segura. Hay varios métodos interesantes para optimizar el manejo de noticias falsas. Estamos adoptando un enfoque lúdico, a través de un cuestionario y un video de escena-stop elegante.",
+  "homepage-description": "El proyecto, creado para promover la alfabetización mediática y combatir la desinformación, fue estructurado para que las tres escuelas de Italia, Alemania y España pudieran colaborar en una iniciativa internacional, intercambiando conocimientos y habilidades digitales. Cada escuela organizó encuentros en sus respectivos países para recibir a los estudiantes y docentes socios, facilitando talleres, conferencias y actividades prácticas enfocadas en reconocer y contrarrestar las noticias falsas. En esta página encontrarás noticias falsas y serás entrenado para manejarlas con más confianza. Existen varios métodos interesantes para optimizar el manejo de las noticias falsas. Estamos adoptando un enfoque lúdico, a través de un cuestionario y un video interactivo con escenas estilizadas.",
 
-
-  "gamepage-title": "¿Por qué jugar?",
-  "gamepage-description": "Aprender sobre las noticias falsas puede ser abrumador, ¿pero quién dice que no puede ser divertido? Pon a prueba tus habilidades de detective con nuestro juego interactivo. Elige tu juego – tenemos diferentes tipos de imágenes y videos hasta noticias... ¿Puedes distinguir lo verdadero de lo falso? Este juego es una excelente manera de: \n- Afinar tus habilidades de pensamiento crítico. \n- Aprender a reconocer señales de alerta en la información en línea. \n- Convertirte en un ciudadano informado en la era digital. \n\nSi te han gustado los juegos, ¡no te detengas! Tenemos diferentes páginas, información, guías y herramientas en línea que puedes usar en nuestra página para protegerte contra contenidos falsificados en la era de la información. ¡Explora el resto de nuestra página!\n",
+  "gamepage-title": "¿Por qué juegos?",
+  "gamepage-description": "Aprender sobre las noticias falsas puede ser abrumador, pero ¿quién dice que no puede ser divertido? ¡Pon a prueba tus habilidades de detective con nuestro juego interactivo! Elige tu juego, tenemos diferentes tipos: imágenes, videos o noticias... \n¿Puedes distinguir lo verdadero de lo falso? \nEste juego es una excelente manera de: \n- Agudizar tus habilidades de pensamiento crítico. \n- Aprender a identificar señales de alerta en la información en línea. \n- Convertirte en un ciudadano más informado en la era digital. \n\nSi te gustaron los juegos, no te detengas ahí. Tenemos diferentes sitios, información, guías y herramientas en línea que puedes usar en nuestro sitio, para protegerte contra el contenido falso en la era de la información.\n",
 
   "informationpage-title": "Información",
-  "informationpage-masquerade-title": "Desenmascarando la manipulación:",
-  "informationpage-masquerade-description": "Las noticias falsas son una mentira evidente, pero la manipulación puede ser más sutil. Distorsiona hechos o utiliza desencadenantes emocionales para influir en tu opinión. Aprende a reconocer estas tácticas para convertirte en un ciudadano informado. Lamentablemente, no existen herramientas en línea que te ayuden con esto, pero todos tenemos el poder de defendernos. Aquí hay algunas estrategias:\n",
-  "informationpage-masquerade-bp1-title": "Agudiza tu pensamiento crítico:",
-  "informationpage-masquerade-bp1-content": "No creas todo lo que ves. Cuestiona la fuente, las pruebas presentadas y los posibles prejuicios.\n",
-  "informationpage-masquerade-bp2-title": "Verifica tus fuentes:",
-  "informationpage-masquerade-bp2-content": "No te bases solo en una fuente de información. Verifica las afirmaciones consultando organizaciones de noticias confiables y sitios de verificación de hechos.\n",
-  "informationpage-masquerade-bp3-title": "Opta por sitios de renombre:",
-  "informationpage-masquerade-bp3-content": "Opta por información de organizaciones de noticias serias con un historial de integridad periodística.",
-  "informationpage-masquerade-bp4-title": "Verifica la autoría:",
-  "informationpage-masquerade-bp4-content": "Identifica al autor y sus calificaciones. ¿Es un experto en el campo?",
-  "informationpage-masquerade-bp5-title": "Considera las fuentes de financiación:",
-  "informationpage-masquerade-bp5-content": "Verifica quién financia la fuente de información. Esto puede revelar posibles sesgos.",
-  "informationpage-masquerade-bp6-title": "Si no estás seguro, NO LO COMPARTAS:",
-  "informationpage-masquerade-bp6-content": "¡Esto ayuda a los demás! Si después de aplicar las estrategias anteriores no estás 100% seguro, simplemente no lo compartas.",
+  "informationpage-masquerade-title": "Desenmascarando la Manipulación: Las noticias falsas son mentiras evidentes, pero la manipulación puede ser más sutil. Distorsiona los hechos o utiliza disparadores emocionales para influir en tu opinión. Aprende a reconocer estas tácticas para convertirte en un ciudadano informado. Lamentablemente, no existen herramientas en línea para ayudarte en este tema, pero todos tenemos el poder de defendernos. Aquí tienes algunas estrategias:",
+  "informationpage-masquerade-bp1": "<strong>Agudiza tu pensamiento crítico:</strong> No aceptes todo al pie de la letra...",
+  "informationpage-masquerade-bp2": "<strong>Verifica tus fuentes:</strong> No confíes en una sola fuente de información. Verifica las afirmaciones consultando organizaciones de noticias reputables y sitios web de verificación de hechos.",
+  "informationpage-masquerade-bp3": "<strong>Prefiere nombres establecidos:</strong> Da preferencia a la información de organizaciones de noticias de renombre con un historial de integridad periodística.",
+  "informationpage-masquerade-bp4": "<strong>Verifica la autoría:</strong> Identifica al autor y sus credenciales. ¿Es un experto en el tema?",
+  "informationpage-masquerade-bp5": "<strong>Considera las fuentes de financiamiento:</strong> Verifica quién financia la fuente de información. Esto puede revelar posibles sesgos.",
+  "informationpage-masquerade-bp6": "<strong>Si tienes dudas, NO LO COMPARTAS:</strong> ¡Esto ayuda a los demás! Si después de aplicar las estrategias anteriores, aún no estás 100% seguro, simplemente no lo difundas.",
 
-  "informationpage-tools-title": "Herramientas para la verdad:",
-  "informationpage-tools-description": "Aquí tienes algunos recursos para verificar hechos, imágenes/videos falsificados... Ten en cuenta que estas herramientas no son infalibles y deben utilizarse en combinación con las estrategias mencionadas anteriormente. Así estaremos mejor preparados para luchar contra la desinformación.",
-  "informationpage-tools-dfandffc-bp1-title": "Búsqueda inversa de imágenes de Google:",
-  "informationpage-tools-dfandffc-bp1-content": "Esta herramienta gratuita te permite subir una imagen o proporcionar una URL para ver si aparece en otro lugar en línea. Esto puede ayudar a identificar la fuente original y posibles manipulaciones. \n  URL: [https://images.google.com/](https://images.google.com/)\n",
-  "informationpage-tools-dfandffc-bp2-title": "TinEye",
-  "informationpage-tools-dfandffc-bp2-content": "Similar a la búsqueda inversa de imágenes de Google, TinEye recorre la web para encontrar imágenes similares. Puede ser útil para descubrir el origen de las fotos y posibles ediciones. \n  URL: [https://tineye.com/](https://tineye.com/)\n",
-  "informationpage-tools-dfandffc-bp3-title": "InVID WeVerify:",
-  "informationpage-tools-dfandffc-bp3-content": "Esta extensión de navegador de AFP ayuda a analizar videos en busca de signos de manipulación. Ofrece consejos y recursos para reconocer deepfakes. \n  URL: [https://www.invid-project.eu/tools-and-services/invid-verification-plugin/](https://www.invid-project.eu/tools-and-services/invid-verification-plugin/)\n",
-  "informationpage-tools-dfandffc-bp4-title": "Sensity AI:",
-  "informationpage-tools-dfandffc-bp4-content": "Esta es una herramienta más avanzada utilizada por profesionales, pero ofrece una versión de prueba gratuita. Puede analizar imágenes y videos en busca de señales de manipulación, incluidos deepfakes. \n  URL: [https://sensity.ai/](https://sensity.ai/)\n",
+  "informationpage-tools-title": "Herramientas para la Verdad:",
+  "informationpage-tools-description": "Aquí tienes algunos recursos para verificar hechos, imágenes/videos falsos... Ten en cuenta que estas herramientas no son infalibles y deben usarse en combinación con las estrategias mencionadas anteriormente. Así estaremos más preparados para combatir la desinformación.",
+  "informationpage-tools-dfandffc-bp1": "<strong>Búsqueda inversa de imágenes de Google:</strong> Esta herramienta gratuita te permite cargar una imagen o proporcionar una URL para ver si aparece en otros lugares en línea. Puede ayudar a identificar la fuente original y posibles manipulaciones. <a href='https://images.google.com/'> Google Imágenes</a> \n",
+  "informationpage-tools-dfandffc-bp2": "<strong>TinEye:</strong> Similar a la Búsqueda inversa de Imágenes de Google, TinEye busca en la web imágenes similares. Puede ser útil para descubrir el origen de las fotos y posibles ediciones. \n <a href='https://tineye.com/'> Tiny Eye</a>\n",
+  "informationpage-tools-dfandffc-bp3": "<strong>InVID WeVerify:</strong> Esta extensión de navegador de AFP ayuda a analizar videos en busca de señales de manipulación. Proporciona consejos y recursos para detectar deepfakes. \n <a href='https://www.invid-project.eu/tools-and-services/invid-verification-plugin/'> InVID WeVerify</a>",
+  "informationpage-tools-dfandffc-bp4": "<strong>Sensity AI:</strong> Esta es una herramienta más avanzada utilizada por profesionales, aunque ofrece una prueba gratuita. Puede analizar imágenes y videos en busca de señales de manipulación, incluidos los deepfakes. \n <a href='https://sensity.ai/'>Sensity AI</a>\n",
 
   "informationpage-factchecker-title": "Verificadores de hechos falsos:",
-  "informationpage-factchecker-bp1-title": "Snopes:",
-  "informationpage-factchecker-bp1-description": "Un sitio bien establecido que desmantela mitos, leyendas urbanas y desinformación. \n  URL: [https://www.snopes.com/](https://www.snopes.com/)\n",
-  "informationpage-factchecker-bp2-title": "PolitiFact:",
-  "informationpage-factchecker-bp2-description": "Este sitio de verificación de hechos se enfoca en comprobar la exactitud de las afirmaciones hechas por políticos. \n  URL: [https://www.politifact.com/](https://www.politifact.com/)\n",
-  "informationpage-factchecker-bp3-title": "FactCheck.org:",
-  "informationpage-factchecker-bp3-description": "Esta organización sin fines de lucro verifica declaraciones hechas en noticias y por figuras públicas. \n  URL: [https://www.factcheck.org/](https://www.factcheck.org/)\n",
-  "informationpage-factchecker-bp4-title": "International Fact-Checking Network:",
-  "informationpage-factchecker-bp4-description": "Este sitio ofrece un directorio de organizaciones de verificación de hechos a nivel mundial, para que puedas encontrar recursos en tu idioma o región. \n  URL: [https://ifcncodeofprinciples.poynter.org/](https://ifcncodeofprinciples.poynter.org/)\n",
-
-
+  "informationpage-factchecker-bp1": "<strong>Snopes:</strong> Un sitio web bien establecido que desmiente mitos, leyendas urbanas y desinformación. \n <a href='https://www.snopes.com/'> Snopes</a> \n",
+  "informationpage-factchecker-bp2": "<strong>PolitiFact:</strong> Este sitio de verificación de hechos se centra en verificar la precisión de las afirmaciones de los políticos. \n <a href='https://www.politifact.com/'> Politifact</a>\n",
+  "informationpage-factchecker-bp3": "<strong>FactCheck.org:</strong> Esta organización sin fines de lucro verifica las declaraciones realizadas en las noticias y por figuras públicas. \n <a href='https://www.factcheck.org/](https://www.factcheck.org/'> Factcheck.org</a>\n",
+  "informationpage-factchecker-bp4": "<strong>Red Internacional de Verificación de Hechos:</strong> Este sitio web ofrece un directorio de organizaciones de verificación de hechos a nivel mundial, para que puedas encontrar recursos en tu idioma o región. \n <a href='https://ifcncodeofprinciples.poynter.org/](https://ifcncodeofprinciples.poynter.org/'> Red de Verificación de Hechos</a>\n",
 
   "whowearepage-title": "Por qué luchamos:",
-  "whowearepage-description": "Proteger la verdad en la era digital. En la era de la información actual, estamos siendo bombardeados constantemente con noticias. Pero, ¿es todo esto cierto? Lamentablemente, no. Nos enfrentamos a una amenaza creciente: las noticias falsas. Las noticias falsas van más allá de los titulares engañosos. Son informaciones completamente inventadas que a menudo se disfrazan de fuentes legítimas de noticias. Esto las hace aún más peligrosas, ya que pueden ser fácilmente manipuladas mediante un encuadre sesgado o la omisión selectiva de hechos. No solo estamos siendo bombardeados con textos falsos, sino también con imágenes, videos y más falsificados. Las consecuencias de las noticias falsas son reales y pueden ser de gran alcance. Pueden influir en la opinión pública sobre temas críticos, alterar elecciones e incluso incitar a la violencia. Por eso lanzamos este proyecto. Creemos que la educación tiene el poder de contraatacar. Únete a nosotros mientras aumentamos la conciencia sobre las noticias falsas y dotamos a cada persona de las herramientas para distinguir la verdad de la ficción.\n"
-
-
-
+  "whowearepage-description": "Protegiendo la verdad en la era digital. En la era de la información actual, una constante avalancha de noticias nos bombardea por todos lados. Pero, ¿es todo verdad? Lamentablemente, no. Estamos enfrentando una amenaza creciente: las noticias falsas. Las noticias falsas van más allá de los titulares engañosos. Son información completamente fabricada, a menudo disfrazada como fuentes de noticias legítimas. Esto las hace aún más peligrosas, ya que pueden ser fácilmente manipuladas mediante un encuadre sesgado u omisión selectiva de hechos. No solo nos bombardean con textos falsos, sino también con imágenes, videos y más fabricados. Las consecuencias de las noticias falsas son reales y pueden tener un alcance considerable. Pueden influir en la opinión pública sobre temas críticos, afectar elecciones e incluso incitar a la violencia. Por eso estamos lanzando este proyecto. Creemos en el poder de la educación para hacer frente a este problema. Únete a nosotros mientras concienciamos sobre las noticias falsas y proporcionamos a todos las herramientas para discernir la verdad de la ficción.\n"
 }
