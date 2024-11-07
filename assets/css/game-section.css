@@ -25,14 +25,10 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #a1a1a1;
+    background-color: #cfcfcf;
     width: 80%;
     border-radius: 2.5rem;
     align-self: center;
-
-
-
-
 }
 
 
@@ -71,10 +67,20 @@ font-size: 1.2rem;
 
 }
 
+#quiz-score-title-section {
+display: column;
+justify-content: center;
+align-content: center;    
+align-items: center;
+gap: 10%;
+}
 #video-section {
     margin-top: 50px;
 }
-
+#quizScore {
+    font-size: 1.5rem;
+    text-align: center;
+}
 
 #game-objective {
 

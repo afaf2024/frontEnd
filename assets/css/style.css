@@ -122,7 +122,6 @@
 
 
 .footerContainer {
-  background-color: #d8291d;
   color: white;
   padding: 20px;
   font-family: Arial, sans-serif;
@@ -133,6 +132,27 @@
   align-content: center;
   gap: 20px;
 }
+
+.homepage-page .footerContainer {
+  background-color: #d8291d;
+}
+.video-page .footerContainer {
+  background-color: #e8481d;
+}
+.quiz-page .footerContainer {
+  background-color: #f59c2c;
+}
+.information-page .footerContainer {
+  background-color: #00964f;
+}
+.about-page .footerContainer {
+  background-color: #2ea1d9;
+}
+
+
+
+
+
 
 #footer-flex {
   display: flex;
