@@ -119,6 +119,11 @@
   transition: border 0.1s ease-in;
 }
 
+.card-title{
+  color: #000000;
+  font-size: 1.5rem;
+}
+
 .button-info:hover {
   border-color: #ff7063;
 }
