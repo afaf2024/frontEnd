@@ -53,11 +53,11 @@ function game(text) {
 function checkAnswer(buttonValidation) {
     hideButtons();
     if (question.correct === buttonValidation) {
-        document.getElementById('quizResult').textContent = 'Why it is true';
+        document.getElementById('quizResult').textContent = 'Explanation';
         score++;
         document.getElementById('quizScore').textContent = 'Score: ' + score;
     } else {
-        document.getElementById('quizResult').textContent = 'Why it is fake';
+        document.getElementById('quizResult').textContent = 'Explanation';
     }
     document.getElementById('quizExplanation').textContent = question.realNew;
     document.getElementById('quizExplanation').style.display = 'block';
