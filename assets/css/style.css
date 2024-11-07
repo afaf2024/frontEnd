@@ -12,6 +12,9 @@
   height: 100vh;
 }
 
+.container{
+  max-width: 900px !important;
+}
 
 .card-body img {
   border-radius: 2.5rem 2.5rem 2.5rem 2.5rem;
@@ -236,23 +239,19 @@ body {
   cursor: pointer;
 }
 
-.content {
-  padding: 20px;
-  max-width: 800px;
-  margin: 0 auto;
-}
-
-.logo {
-  width: 100px;
-  margin: 10px 0;
-}
-
 h1, h2 {
   color: #007b5e;
 }
 
 .info-section, .tools-section, .fact-checkers-section {
   margin-bottom: 20px;
+}
+
+.info-title{
+  margin-left: 2rem !important;
+  margin-top: -0.5rem !important;
+  color: #00964f;
+  font-size:1.5rem;
 }
 
 .strategies {

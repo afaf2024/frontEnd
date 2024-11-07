@@ -33,7 +33,7 @@
     flex-direction: column;
     align-items: center;
     background-color: #cfcfcf;
-    width: 80%;
+    width: 100%;
     border-radius: 2.5rem;
     align-self: center;
 }
@@ -42,13 +42,15 @@
 
 #game-image {
     width: 45vw !important;
-    height: 50vh !important;
+    height: auto !important;
 
     background-color: black;
 
     display: flex;
     justify-content: center;
     align-items: center;
+
+    max-width: 700px !important;
 
 }
 
