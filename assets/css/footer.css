@@ -22,7 +22,7 @@
 }
 
 .footer-logos img {
-    max-height: 500px;
+    max-height: 100px;
 }
 
 #footer-line2 {
@@ -36,6 +36,7 @@
     height: 78px;
     margin-top: 2px !important;
 }
+
 .logos img {
     background-color: white;
     border-radius: 15px;

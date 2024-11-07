@@ -4,20 +4,17 @@
   "nav-quiz": "Quiz-Spiel",
   "nav-information": "Information",
   "nav-about": "Über uns",
-
   "index-startbutton": "Starten",
   "index-description": "Fake News sind irreführende oder erfundene Informationen, oft zur Manipulation. Möchtest du mehr über ihre Auswirkungen und wie man sie erkennt, erfahren?",
-
   "homepage-description": "<strong>Willkommen bei Another Fake, another Fact!</strong><br>In diesem EU-finanzierten Projekt möchten wir dir helfen, deine Fähigkeiten zu stärken, um Fake News leichter zu erkennen und selbstbewusst damit umzugehen. Diese Seite ist das Ergebnis einer spannenden Zusammenarbeit zwischen Schulen in Italien, Deutschland und Spanien, die alle dasselbe Ziel teilen: dir praktische und wirksame Werkzeuge an die Hand zu geben, um dich sicher im digitalen Nachrichten-Dschungel zu bewegen.<br><br>Hier erwartet dich ein interaktives Quiz und ein lebendiges Video, mit denen du typische Muster von Fake News entlarven und deinen kritischen Blick schärfen kannst. Unser Ansatz ist didaktisch, praktisch und unterhaltsam – damit das Lernen nicht nur nützlich, sondern auch richtig spannend wird.<br><br>Lass uns gemeinsam für ein gut informiertes, sicheres und vertrauenswürdiges Europa einstehen!",
   "quiz-title": "Quiz - wahr oder falsch?",
-  "video-title" : "Interaktives Video",
-
-
+  "video-title": "Interaktives Video",
+  "quiz-title-homePage": "Quiz-Spiel",
+  "video-title-homePage": "Videospiel",
+  
   "gamepage-title": "Warum Spiele??",
   "gamepage-description": "Das Lernen über Fake News kann überwältigend sein, aber wer sagt, dass es keinen Spaß machen kann? Teste deine Detektivfähigkeiten mit unserem interaktiven Spiel! Wähle dein Spiel – wir haben verschiedene Typen von Bildern und Videos bis hin zu Nachrichten...  \nKannst du das Wahre vom Falschen unterscheiden?  \nDieses Spiel ist eine großartige Möglichkeit, um:  \n- Deine kritischen Denkfähigkeiten zu schärfen.  \n- Zu lernen, wie man Warnsignale in Online-Informationen erkennt.  \n- Ein informierter Bürger im digitalen Zeitalter zu werden.  \n\nWenn dir die Spiele gefallen haben, hör nicht auf! Wir haben verschiedene Seiten, Informationen, Leitfäden und Online-Tools, die du auf unserer Seite nutzen kannst, um dich im Informationszeitalter gegen gefälschte Inhalte zu schützen. Schau dir den Rest unserer Seite an!\n",
   "game-objective": "Dies ist ein Video, in dem eine Person Nachrichten sieht, die sie interessant findet, sich aber nicht sicher ist, ob sie diese posten soll oder nicht. Hier kommst du ins Spiel! Du wirst mit dem Dilemma unseres Freundes konfrontiert und musst Entscheidungen für ihn treffen.\nFinde die Konsequenzen deiner Entscheidungen heraus und wohin sie uns führen könnten!",
-
-
   "informationpage-title": "Information",
   "informationpage-masquerade-title": "Die Maskerade der Manipulation: Fake News sind eine offensichtliche Lüge, aber Manipulation kann subtiler sein. Sie verdreht Fakten oder nutzt emotionale Trigger, um deine Meinung zu beeinflussen. Lerne, diese Taktiken zu erkennen, um ein informierter Bürger zu werden. Leider gibt es keine Online-Tools, die dir dabei helfen, aber wir alle haben die Macht, uns zu wehren. Hier sind einige Strategien:",
   "informationpage-masquerade-bp1": "<strong>Schärfe dein kritisches Denken:</strong> Glaub nicht alles, was du siehst...",
@@ -26,22 +23,17 @@
   "informationpage-masquerade-bp4": "<strong>Überprüfe die Urheberschaft:</strong> Identifiziere Autor*in und dessen Qualifikationen. Ist er/sie ein Experte auf dem Gebiet?",
   "informationpage-masquerade-bp5": "<strong>Berücksichtige die Finanzierungsquellen:</strong> Überprüfe wer die Informationsquelle finanziert. Dies kann mögliche Vorurteile aufdecken.",
   "informationpage-masquerade-bp6": "<strong>Wenn du dir nicht sicher bist, TEILE NICHT:</strong> Dies hilft anderen! Wenn du nach Anwendung der genannten Strategien immer noch nicht 100% sicher bist, verbreite es einfach nicht!",
-
   "informationpage-tools-title": "Werkzeuge für die Wahrheit:",
   "informationpage-tools-description": "Hier sind einige Ressourcen, um Fakten, gefälschte Bilder/Videos zu überprüfen... Bitte beachte, dass diese Tools nicht narrensicher sind, und sie in Kombination mit den oben besprochenen Strategien genutzt werden sollten. So sind wir besser auf den Kampf gegen Fehlinformationen vorbereitet.",
   "informationpage-tools-dfandffc-bp1": "<strong><a href='https://images.google.com/'>Google Reverse Image Search:</a></strong> Dieses kostenlose Tool ermöglicht es dir, ein Bild hochzuladen oder eine URL bereitzustellen, um zu sehen, ob es anderswo online erscheint. Dies kann helfen, die ursprüngliche Quelle und mögliche Manipulationen zu identifizieren.\n",
   "informationpage-tools-dfandffc-bp2": "<strong><a href='https://tineye.com/'>TinEye:</a></strong> Ähnlich wie die Google Reverse Image Search durchsucht TinEye das Web, um ähnliche Bilder zu finden. Es kann hilfreich sein, den Ursprung von Fotos und mögliche Bearbeitungen aufzudecken.\n",
   "informationpage-tools-dfandffc-bp3": "<strong><a href='https://www.invid-project.eu/tools-and-services/invid-verification-plugin/'>InVID WeVerify:</a></strong> Diese Browsererweiterung von AFP hilft dabei, Videos auf Anzeichen von Manipulation zu analysieren. Sie bietet Tipps und Ressourcen, um Deepfakes zu erkennen.",
   "informationpage-tools-dfandffc-bp4": "<strong><a href='https://sensity.ai/'>Sensity AI:</a></strong> Dies ist ein fortschrittlicheres Tool, das von Fachleuten verwendet wird, aber eine kostenlose Testversion anbietet. Es kann Bilder und Videos auf Anzeichen von Manipulation, einschließlich Deepfakes, analysieren.\n",
-
   "informationpage-factchecker-title": "Fake Faktenprüfer:",
   "informationpage-factchecker-bp1": "<strong><a href='https://www.snopes.com/'>Snopes:</a></strong> Eine gut etablierte Website, die Mythen, urbane Legenden und Fehlinformationen entlarvt.\n",
   "informationpage-factchecker-bp2": "<strong><a href='https://www.politifact.com/'>PolitiFact:</a></strong> Diese Faktenprüfungsseite konzentriert sich darauf, die Genauigkeit von Behauptungen zu überprüfen, die von Politikern gemacht werden.\n",
   "informationpage-factchecker-bp3": "<strong><a href='https://www.factcheck.org/](https://www.factcheck.org/'>FactCheck.org</a></strong> Diese gemeinnützige Organisation überprüft Aussagen, die in den Nachrichten und von öffentlichen Figuren gemacht werden.\n",
   "informationpage-factchecker-bp4": "<strong><a href='https://ifcncodeofprinciples.poynter.org/](https://ifcncodeofprinciples.poynter.org/'>International Fact-Checking Network:</a></strong> Diese Website bietet ein Verzeichnis von Faktenprüfungsorganisationen weltweit, sodass du Ressourcen in deiner spezifischen Sprache oder Region finden kannst.\n",
-
-  
-
   "aboutus-title": "About Us",
   "aboutus-patronata-desc": "Die AFP Patronato San Vincenzo ist eine Berufsschule, die Ausbildungs-, Erziehungs-, Hilfs- und soziale Förderungsmaßnahmen durchführt. Sie kümmert sich um die menschliche und berufliche Entwicklung der Kinder und ihrer Mitarbeiter, um die erzieherischen und sozialen Leitlinien des Gründers Don Bepo Vavassori zu erhalten..",
   "aboutus-patronata-contact": "<strong>AFP Patronato San Vincenzo</strong><br> Telefon: +39 035 319361<br> Email: info@patronatosanvincenzo.it<br> Addresse: Via Mauro Gavazzeni, 3, 24125, Bergamo, BG, Italy.<br> Link:  <a href='https://www.afppatronatosv.org/' target='_blank'>https://www.afppatronatosv.org/</a>",
@@ -51,8 +43,7 @@
   "aboutus-IES-contact": "<strong>IES Zaidin Vergels</strong><br>\n                Telefon: +34 958 893850<br>\n                Email: secretaria@ieszaidinvergers.org<br>\n                Addresse: C/Primavera, 26-28, 18008 Granada, Andalucía, ESP <br>\n                    Link:<a href=\"https://www.ieszaidinvergeles.org\" target=\"_blank\">https://www.ieszaidinvergeles.org</a>\n",
   "whowearepage-title": "Warum wir kämpfen:",
   "whowearepage-description": "Der Schutz der Wahrheit im digitalen Zeitalter. In dem heutigen Informationszeitalter werden wir von einer ständigen Flut von Nachrichten bombardiert. Aber ist das alles wahr? Leider nicht. Wir stehen vor einer wachsenden Bedrohung: Fake News. Fake News gehen über irreführende Schlagzeilen hinaus. Es handelt sich um vollständig erfundene Informationen, die oft als legitime Nachrichtenquellen getarnt sind. Dies macht sie noch gefährlicher, da sie leicht durch voreingenommene Rahmung oder selektives Auslassen von Fakten manipuliert werden können. Wir werden nicht nur mit gefälschten Texten bombardiert, sondern auch mit gefälschten Bildern, Videos und mehr. Die Folgen von Fake News sind real und können weitreichend sein. Sie können die öffentliche Meinung zu kritischen Themen beeinflussen, Wahlen beeinflussen und sogar Gewalt anstiften. Deshalb starten wir dieses Projekt. Wir glauben dass Bildung die Macht hat zurückzuschlagen. Schließe dich uns an, während wir das Bewusstsein für Fake News schärfen und jeden mit den Werkzeugen ausstatten, um Wahrheit von Fiktion zu unterscheiden.\n",
-
-  "privacyPolicyHeadline":"Datenschutzerklärung für Another Fake, another Fact",
+  "privacyPolicyHeadline": "Datenschutzerklärung für Another Fake, another Fact",
   "privacyPolicyUpdate": "<strong>Letztes Update:</strong> 07.11.2024",
   "privacyPolicyIntro": "Willkommen bei Another Fake, another Fact, einem von der EU finanzierten Bildungsprojekt zur Förderung der Medienkompetenz und zur Bekämpfung von Fehlinformationen. Ihre Privatsphäre ist uns wichtig. In dieser Richtlinie wird erläutert, welche Mindestdaten wir verarbeiten und wie wir Transparenz und Sicherheit für die Nutzer gewährleisten.",
   "privacyPolicyFirstEntry": "<strong>Welche Daten wir sammeln</strong><ul><li><strong>Keine Erhebung persönlicher Daten:</strong>Wir sammeln, speichern oder verarbeiten keine persönlichen Daten von Benutzern. Es ist keine Anmeldung, Registrierung oder Erstellung eines Kontos erforderlich, um auf unsere Website oder ihre Funktionen zuzugreifen.</li><li><strong>Cookies und Sitzungsdaten:</strong>Unsere Website verwendet Cookies nur für grundlegende Funktionen (z. B. Spracheinstellungen) oder um zu verstehen, wie die Nutzer mit der Website in ihrer Gesamtheit interagieren (allgemeine Nutzungsdaten ohne Identifizierung von Einzelpersonen). Diese Cookies speichern keine personenbezogenen Daten und können in den Einstellungen Ihres Browsers verwaltet werden.</li></ul>",
@@ -62,7 +53,4 @@
   "privacyPolicyFithEntry": "<strong>Datensicherheit</strong><ul><li>Obwohl wir keine persönlichen Daten sammeln, legen wir großen Wert auf die Sicherheit und Integrität unserer Website und aller damit verbundenen Ressourcen. Es gibt grundlegende Sicherheitsmaßnahmen, um die Website vor unbefugtem Zugriff zu schützen und ein sicheres Nutzererlebnis zu gewährleisten.</li></ul>",
   "privacyPolicySixthEntry": "<strong>Kontaktinformationen</strong><ul><li>Wenn Sie Fragen zu dieser Datenschutzrichtlinie oder zum Projekt haben, finden Sie die Kontaktdaten der einzelnen Partnerschulen, die an diesem Projekt beteiligt sind auf der Über-uns-Seite.</li></ul>",
   "privacyPolicyEnding": "Vielen Dank für die Verwendung von „Another Fake, another Fact“ und die Unterstützung unserer Mission, eine gut informierte, medienkompetente Gemeinschaft zu schaffen!"
-
-
-
 }
