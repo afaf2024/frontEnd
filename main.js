@@ -1,24 +1,16 @@
-
-
-
-
 const path = require('path');
 const express = require('express');
 const livereload = require('livereload');
 const connectLiveReload = require('connect-livereload');
-const cors = require('cors');
-
-
-
-
+const cors = require("cors");
 
 const app = express();
 const PORT = 3000; 
 
-app.use(connectLiveReload());
-app.use(cors());
-app.use(express.static(path.join(__dirname, '/')));
 
+app.use(cors());
+app.use(connectLiveReload());
+app.use(express.static(path.join(__dirname, '/')));
 
 app.get('/', (req, res) => {
   res.sendFile(path.join(__dirname, 'index.html'));
@@ -34,4 +26,3 @@ liveReloadServer.server.once("connection", () => {
     liveReloadServer.refresh("/");
   }, 100);
 });
-
