@@ -247,6 +247,10 @@ h1, h2 {
   margin-bottom: 20px;
 }
 
+.info-text, .tools-section, .fact-checkers-section{
+  margin-left: 2rem !important;
+}
+
 .info-title{
   margin-left: 2rem !important;
   margin-top: -0.5rem !important;
