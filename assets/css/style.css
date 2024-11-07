@@ -145,6 +145,9 @@
 .quiz-page .footerContainer {
   background-color: #f59c2c;
 }
+.quiz-page #footer-text p, .quiz-page #footer-text h2{
+  color: black !important;
+}
 .information-page .footerContainer {
   background-color: #00964f;
 }
