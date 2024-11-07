@@ -126,6 +126,7 @@ function translatePage() {
 
 // with the translation in the active locale,
 
+
 // corresponding to the element's data-i18n-key
 
 function translateElement(element) {
