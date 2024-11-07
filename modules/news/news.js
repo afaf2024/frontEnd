@@ -3,14 +3,29 @@
 const cards = document.querySelectorAll('.ag-courses_item');
 const cardTitles = document.querySelectorAll('.ag-courses-item_title');
 
+
+
 async function setNews() {
 
-    const lang = document.documentElement.lang;
-    await getNews(lang);
+    const lang = localStorage.getItem("lang");
+    
+    const data = await getNews(lang);
+    let cont = 0;
 
     cardTitles.forEach(cardTitles => {
         
-            cardTitles.innerHTML = 'Noticia';
+        cardTitles.innerHTML = data[++cont].title;
+
+        
+
+        
+            
+
+
+
+
+
+
 
         /*
         caja.addEventListener('click', () => {
@@ -28,20 +43,14 @@ async function getNews(lang) {
     const response = await fetch(`https://erasmus.ieszaidinvergeles.es/fakeNews/public/api/news/${lang}`, {
         method: 'GET',
         headers: {
-            'Content-Type': 'application/xml',
+            'Content-Type': 'application/json',
             'Access-Control-Allow-Origin': '*'
         }
     });
 
-    if (response.ok) {
-        const xml = await response.text();
-        const parser = new DOMParser();
-        const doc = parser.parseFromString(xml, 'application/xml');
-
-        // Aquí puedes procesar el documento XML
-        console.log(doc);
-    } else {
-        console.error('Error fetching news:', response.status);
-    }
+    // json
+    const data = await response.json();
+    console.log(data);
+    return data;
     
 }
