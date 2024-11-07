@@ -1,0 +1,35 @@
+{
+    "index-startbutton": "Start",
+    "index-description": "Fake news are misleading or fabricated information, often intended for manipulation. Would you like to learn more about their impact and how to recognize them?",
+  
+    "homepage-description": "<strong>Benvenuti a Another Fake, another Fact!</strong><br>In questo progetto finanziato dall'UE, vi invitiamo a sviluppare le vostre competenze per identificare e affrontare le fake news in modo più efficace.<br>Progettato per promuovere l'alfabetizzazione mediatica e combattere la disinformazione, questo sito è il risultato di una collaborazione internazionale tra tre scuole in Italia, Germania e Spagna, unite per offrire strumenti pratici ed efficaci.<br><br>Attraverso un quiz interattivo e un video dinamico, imparerete a individuare gli schemi comuni delle fake news e a rafforzare la vostra capacità critica di distinguere la verità in un ambiente digitale.<br><br>La nostra iniziativa prevede metodi didattici, pratici e divertenti che renderanno questa esperienza di apprendimento coinvolgente e utile.<br><br>Costruiamo insieme un'Europa informata, sicura e affidabile.",
+  
+    "gamepage-title": "Why Games?",
+    "gamepage-description": "Learning about fake news can feel overwhelming, but who says it can't be fun? Put your detective skills to the test with our interactive game! Choose your game, we have different types, from images, videos, or news... \nCan you tell the true from the false? \nThis game is a great way to: \n- Sharpen your critical thinking skills. \n- Learn how to identify red flags in online information. \n- Become a more informed citizen in the digital age. \n\nIf you liked the games, don’t stop there. We have different sites, information, guides, and online tools that you can use in our site, to protect yourself against the fake content in the age of information.\n",
+  
+    "informationpage-title": "Information",
+    "informationpage-masquerade-title": "Unmasking Manipulation: Fake news are evident lies, but manipulation can be subtler. It distorts facts or uses emotional triggers to influence your opinion. Learn to recognize these tactics to become an informed citizen. Sadly, there are no online tools to aid you on this matter, but we all have the power to defend ourselves. Here are some strategies:",
+    "informationpage-masquerade-bp1": "<strong>Sharpen Your Critical Thinking:</strong> Don’t accept everything at face value...",
+    "informationpage-masquerade-bp2": "<strong>Check your sources:</strong> Don't rely on a single source for information. Verify statements by consulting reputable news organizations and fact-checking websites.",
+    "informationpage-masquerade-bp3": "<strong>Prefer established names:</strong> Favor information from reputable news organizations with a history of journalistic integrity.",
+    "informationpage-masquerade-bp4": "<strong>Check authorship:</strong> Identify the author and their qualifications. Are they an expert in the field?",
+    "informationpage-masquerade-bp5": "<strong>Consider the funding sources:</strong> Check who funds the information source. This can reveal potential biases.",
+    "informationpage-masquerade-bp6": "<strong>If you're unsure, DON'T SHARE:</strong> This helps others! If after applying the above strategies, you're still not 100% sure, simply don't spread it!",
+  
+    "informationpage-tools-title": "Tools for Truth:",
+    "informationpage-tools-description": "Here are some resources to check facts, fake images/videos... Please note that these tools are not foolproof, and should be used in combination with the strategies discussed above. This way, we'll be more prepared to fight misinformation.",
+    "informationpage-tools-dfandffc-bp1": "<strong>Google Reverse Image Search:</strong> This free tool allows you to upload an image or provide a URL to see if it appears elsewhere online. It can help identify the original source and possible manipulations. <a href='https://images.google.com/'> Google Images</a> \n",
+    "informationpage-tools-dfandffc-bp2": "<strong>TinEye:</strong> Similar to Google Reverse Image Search, TinEye searches the web for similar images. It can be helpful in uncovering the origin of photos and possible edits. \n <a href='https://tineye.com/'> Tiny Eye</a>\n",
+    "informationpage-tools-dfandffc-bp3": "<strong>InVID WeVerify:</strong> This browser extension from AFP helps to analyze videos for signs of manipulation. It provides tips and resources to detect deepfakes. \n <a href='https://www.invid-project.eu/tools-and-services/invid-verification-plugin/'> InVID WeVerify</a>",
+    "informationpage-tools-dfandffc-bp4": "<strong>Sensity AI:</strong> This is a more advanced tool used by professionals, although it offers a free trial. It can analyze images and videos for signs of manipulation, including deepfakes. \n <a href='https://sensity.ai/'>Sensity AI</a>\n",
+  
+    "informationpage-factchecker-title": "Fake Fact Checkers:",
+    "informationpage-factchecker-bp1": "<strong>Snopes:</strong> A well-established website that debunks myths, urban legends, and misinformation. \n <a href='https://www.snopes.com/'> Snopes</a> \n",
+    "informationpage-factchecker-bp2": "<strong>PolitiFact:</strong> This fact-checking site focuses on verifying the accuracy of claims made by politicians. \n <a href='https://www.politifact.com/'> Politifact</a>\n",
+    "informationpage-factchecker-bp3": "<strong>FactCheck.org:</strong> This nonprofit organization verifies statements made in the news and by public figures. \n <a href='https://www.factcheck.org/](https://www.factcheck.org/'> Factcheck.org</a>\n",
+    "informationpage-factchecker-bp4": "<strong>International Fact-Checking Network:</strong> This website offers a directory of fact-checking organizations worldwide, so you can find resources in your specific language or region. \n <a href='https://ifcncodeofprinciples.poynter.org/](https://ifcncodeofprinciples.poynter.org/'> Fact-Checking Network</a>\n",
+  
+    "whowearepage-title": "Why We Fight:",
+    "whowearepage-description": "Protecting the truth in the digital age. In today's information age, a constant stream of news bombards us from all sides. But is it all truth? Unfortunately, no. We're facing a growing threat: fake news. Fake news goes beyond simply misleading headlines. It's entirely fabricated information, often disguised as legitimate news sources. This makes it even more dangerous, as it can be easily manipulated through biased framing or selective omission of facts. We're bombarded not just with fake text, but also with fabricated images, videos, and more. The consequences of fake news are real and can be far-reaching. It can sway public opinion on critical issues, influence elections, and even incite violence. That's why we're launching this project. We believe in the power of education to fight back. Join us as we raise awareness about fake news and equip everyone with the tools to discern truth from fiction.\n"
+  }
+  
