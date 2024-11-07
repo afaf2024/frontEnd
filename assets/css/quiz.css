@@ -74,7 +74,7 @@ html {
 
 #quizButtonNext {
     margin-top: 30px;
-    background-color: rgb(158, 158, 212);
+    border: 2px solid var(--bs-yellow);
     display: none;
     width: 100px;
     height: 30px;
@@ -83,7 +83,8 @@ html {
     border-radius: 15px;
     text-align: center;
     align-self: center;
-
+    font-size: 1.2rem;
+    transition: color 0.2s;
 }
 
 #quizResult {
@@ -91,8 +92,13 @@ html {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+#quizButtonNext:hover {
+    background-color: var(--bs-yellow);
+    color: white;
+}
+
 #quizButtonRestart {
-    background-color: rgb(188, 131, 209);
+    border: 2px solid var(--bs-purple);
     display: none;
     align-self: center;
     margin-top: 30px;
@@ -102,8 +108,13 @@ html {
     text-decoration: none;
     border-radius: 15px;
     text-align: center;
-
-
+    font-size: 1.2rem;
+    transition: color 0.2s;
+}
+#quizButtonRestart:hover {
+    background-color: var(--bs-purple);
+    color: white;
+    cursor: pointer;
 }
 
 #quizExplanation {
