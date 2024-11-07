@@ -85,6 +85,7 @@ gap: 10%;
 #quizScore {
     font-size: 1.5rem;
     text-align: center;
+    border-radius: 5px;
 }
 
 #game-objective {

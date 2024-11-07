@@ -1,4 +1,10 @@
 {
+  "nav-homepage": "Homepage",
+  "nav-video": "Video Game",
+  "nav-quiz": "Quiz Game",
+  "nav-information": "Information",
+  "nav-about": "About Us",
+
   "index-startbutton": "Start",
   "index-description": "Fake news are misleading or fabricated information, often intended for manipulation. Would you like to learn more about their impact and how to recognize them?",
 
@@ -18,16 +24,16 @@
 
   "informationpage-tools-title": "Tools for Truth:",
   "informationpage-tools-description": "Here are some resources to check facts, fake images/videos... Please note that these tools are not foolproof, and should be used in combination with the strategies discussed above. This way, we'll be more prepared to fight misinformation.",
-  "informationpage-tools-dfandffc-bp1": "<strong>Google Reverse Image Search:</strong> This free tool allows you to upload an image or provide a URL to see if it appears elsewhere online. It can help identify the original source and possible manipulations. <a href='https://images.google.com/'> Google Images</a> \n",
-  "informationpage-tools-dfandffc-bp2": "<strong>TinEye:</strong> Similar to Google Reverse Image Search, TinEye searches the web for similar images. It can be helpful in uncovering the origin of photos and possible edits. \n <a href='https://tineye.com/'> Tiny Eye</a>\n",
-  "informationpage-tools-dfandffc-bp3": "<strong>InVID WeVerify:</strong> This browser extension from AFP helps to analyze videos for signs of manipulation. It provides tips and resources to detect deepfakes. \n <a href='https://www.invid-project.eu/tools-and-services/invid-verification-plugin/'> InVID WeVerify</a>",
-  "informationpage-tools-dfandffc-bp4": "<strong>Sensity AI:</strong> This is a more advanced tool used by professionals, although it offers a free trial. It can analyze images and videos for signs of manipulation, including deepfakes. \n <a href='https://sensity.ai/'>Sensity AI</a>\n",
+  "informationpage-tools-dfandffc-bp1": "<strong><a href='https://images.google.com/'>Google Reverse Image Search:</a></strong> This free tool allows you to upload an image or provide a URL to see if it appears elsewhere online. It can help identify the original source and possible manipulations.\n",
+  "informationpage-tools-dfandffc-bp2": "<strong><a href='https://tineye.com/'>TinEye:</a></strong> Similar to Google Reverse Image Search, TinEye searches the web for similar images. It can be helpful in uncovering the origin of photos and possible edits.\n",
+  "informationpage-tools-dfandffc-bp3": "<strong><a href='https://www.invid-project.eu/tools-and-services/invid-verification-plugin/'>InVID WeVerify:</a></strong> This browser extension from AFP helps to analyze videos for signs of manipulation. It provides tips and resources to detect deepfakes. \n",
+  "informationpage-tools-dfandffc-bp4": "<strong><a href='https://sensity.ai/'>Sensity AI:</a></strong> This is a more advanced tool used by professionals, although it offers a free trial. It can analyze images and videos for signs of manipulation, including deepfakes.\n",
 
   "informationpage-factchecker-title": "Fake Fact Checkers:",
-  "informationpage-factchecker-bp1": "<strong>Snopes:</strong> A well-established website that debunks myths, urban legends, and misinformation. \n <a href='https://www.snopes.com/'> Snopes</a> \n",
-  "informationpage-factchecker-bp2": "<strong>PolitiFact:</strong> This fact-checking site focuses on verifying the accuracy of claims made by politicians. \n <a href='https://www.politifact.com/'> Politifact</a>\n",
-  "informationpage-factchecker-bp3": "<strong>FactCheck.org:</strong> This nonprofit organization verifies statements made in the news and by public figures. \n <a href='https://www.factcheck.org/](https://www.factcheck.org/'> Factcheck.org</a>\n",
-  "informationpage-factchecker-bp4": "<strong>International Fact-Checking Network:</strong> This website offers a directory of fact-checking organizations worldwide, so you can find resources in your specific language or region. \n <a href='https://ifcncodeofprinciples.poynter.org/](https://ifcncodeofprinciples.poynter.org/'> Fact-Checking Network</a>\n",
+  "informationpage-factchecker-bp1": "<strong><a href='https://www.snopes.com/'>Snopes:</a></strong> A well-established website that debunks myths, urban legends, and misinformation.\n",
+  "informationpage-factchecker-bp2": "<strong><a href='https://www.politifact.com/'>Politifact:</a></strong> This fact-checking site focuses on verifying the accuracy of claims made by politicians.\n",
+  "informationpage-factchecker-bp3": "<strong><a href='https://www.factcheck.org/](https://www.factcheck.org/'>FactCheck.org:</a></strong> This nonprofit organization verifies statements made in the news and by public figures.\n",
+  "informationpage-factchecker-bp4": "<strong><a href='https://ifcncodeofprinciples.poynter.org/](https://ifcncodeofprinciples.poynter.org/'>International Fact-Checking Network:</a></strong> This website offers a directory of fact-checking organizations worldwide, so you can find resources in your specific language or region.\n",
 
   "aboutus-title": "About Us",
   "aboutus-patronata-desc": "The AFP Patronato San Vincenzo is a vocational school that carries out training, education, assistance and social promotion activities. It takes care of the human and professional growth of the children and its workers, to maintain the educational and social guidelines of the founder Don Bepo Vavassori.",
