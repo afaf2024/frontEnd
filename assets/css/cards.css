@@ -31,6 +31,13 @@ a {
   flex: 0 0 22rem;
 }
 
+.ag-courses_item:hover {
+ cursor: pointer;
+
+
+
+}
+
 .ag-courses-item_link {
   display: block;
   padding: 1.845rem 1.25rem; /* antes era 30px 20px */
