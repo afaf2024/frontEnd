@@ -135,6 +135,7 @@
 
 .row{
   margin-top: 20px !important;
+  --bs-gutter-x:0 !important;
 }
 
 .nav-language{
@@ -167,14 +168,21 @@
   #nav-list{
     display: block;
     width: fit-content;
-    margin-left: auto !important;
+    margin-left: 30vw !important;
   }
 
   .nav-link{
     padding: 0px 80px !important;
+    margin-left: 0 !important;
   }
 
   .nav-language{
     margin-left: auto !important;
+  }
+}
+
+@media (max-width:1000px){
+  #nav-list{
+    margin-left: 25vw !important;
   }
 }
