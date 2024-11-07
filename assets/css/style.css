@@ -16,6 +16,9 @@
   max-width: 900px !important;
 }
 
+.card-body{
+  text-align: center;
+}
 .card-body img {
   border-radius: 2.5rem 2.5rem 2.5rem 2.5rem;
   transition: all 0.3s ease-in-out;
