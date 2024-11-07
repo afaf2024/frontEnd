@@ -1,4 +1,10 @@
 {
+  "nav-homepage": "Página Principal",
+  "nav-video": "Videojuego",
+  "nav-quiz": "Juego de Preguntas",
+  "nav-information": "Información",
+  "nav-about": "Sobre Nosotros",
+
   "index-startbutton": "Comenzar",
   "index-description": "Las noticias falsas son información engañosa o fabricada, a menudo con la intención de manipular. ¿Te gustaría aprender más sobre su impacto y cómo reconocerlas?",
 

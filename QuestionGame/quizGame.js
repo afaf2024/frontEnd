@@ -83,12 +83,16 @@ function nextQuestion(text) {
     if (assignedQuestion >= text.questions.length) {
         document.getElementById('quizButtonRestart').style.display = 'block';
         document.getElementById('quizButtonNext').style.display = 'none';
+        document.getElementById('quizResult').textContent = 'You Finished the Game! Want to Play Again?';
+        
+        document.getElementById('quizExplanation').style.display = 'none';
     } else {
         showQuestion(text);
         document.getElementById('quizResult').textContent = '';
+        document.getElementById('quizExplanation').textContent = '';
         showButtons();
     }
-    document.getElementById('quizExplanation').style.display = 'none';
+   
 }
 
 function showQuestion(text) {
