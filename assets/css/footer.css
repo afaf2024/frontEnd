@@ -34,11 +34,16 @@
 #erasmus-img {
     width: 286px;
     height: 78px;
+    margin-top: 2px !important;
 }
 .logos img {
     background-color: white;
     border-radius: 15px;
     padding: 15px;
+}
+
+#footer-text p, #footer-text h2{
+    color: white !important;
 }
 
 .privacyPolicy{
