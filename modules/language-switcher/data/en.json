@@ -1,11 +1,20 @@
 {
+  "nav-homepage": "Homepage",
+  "nav-video": "Video Game",
+  "nav-quiz": "Quiz Game",
+  "nav-information": "Information",
+  "nav-about": "About Us",
+
   "index-startbutton": "Start",
   "index-description": "Fake news are misleading or fabricated information, often intended for manipulation. Would you like to learn more about their impact and how to recognize them?",
 
   "homepage-description": "<strong>Welcome to Another Fake, another Fact!</strong><br>In this EU-funded project, we invite you to develop your skills to identify and deal with fake news more effectively.<br>Designed to promote media literacy and combat misinformation, this site is the result of an international collaboration between three schools in Italy, Germany and Spain, united to offer you practical and effective tools.<br><br>Through an interactive quiz and a dynamic video, you will learn to detect common patterns in fake news and strengthen your critical ability to distinguish the truth in a digital environment.<br><br>Our initiative includes didactic, practical and entertaining methods that will make this learning experience engaging and useful.<br><br>Let's build together an informed, safe and trustworthy Europe.",
+  
+  "quiz-title": "Quiz - true or false?",
 
   "gamepage-title": "Why Games?",
   "gamepage-description": "Learning about fake news can feel overwhelming, but who says it can't be fun? Put your detective skills to the test with our interactive game! Choose your game, we have different types, from images, videos, or news... \nCan you tell the true from the false? \nThis game is a great way to: \n- Sharpen your critical thinking skills. \n- Learn how to identify red flags in online information. \n- Become a more informed citizen in the digital age. \n\nIf you liked the games, don’t stop there. We have different sites, information, guides, and online tools that you can use in our site, to protect yourself against the fake content in the age of information.\n",
+  "game-objective": "This is a video where a person sees watches some news that finds interesting, but its not sure if he should post it or not. Here is where you, the viewer, can help! You will be presented with the dilemma our friend is having. and will be be asked to make the decisions for him.\nFind out the consequences of your choices, and where it could lead us!",
 
   "informationpage-title": "Information",
   "informationpage-masquerade-title": "Unmasking Manipulation: Fake news are evident lies, but manipulation can be subtler. It distorts facts or uses emotional triggers to influence your opinion. Learn to recognize these tactics to become an informed citizen. Sadly, there are no online tools to aid you on this matter, but we all have the power to defend ourselves. Here are some strategies:",
@@ -18,17 +27,16 @@
 
   "informationpage-tools-title": "Tools for Truth:",
   "informationpage-tools-description": "Here are some resources to check facts, fake images/videos... Please note that these tools are not foolproof, and should be used in combination with the strategies discussed above. This way, we'll be more prepared to fight misinformation.",
-  "informationpage-tools-dfandffc-bp1": "<strong>Google Reverse Image Search:</strong> This free tool allows you to upload an image or provide a URL to see if it appears elsewhere online. It can help identify the original source and possible manipulations. <a href='https://images.google.com/'> Google Images</a> \n",
-  "informationpage-tools-dfandffc-bp2": "<strong>TinEye:</strong> Similar to Google Reverse Image Search, TinEye searches the web for similar images. It can be helpful in uncovering the origin of photos and possible edits. \n <a href='https://tineye.com/'> Tiny Eye</a>\n",
-  "informationpage-tools-dfandffc-bp3": "<strong>InVID WeVerify:</strong> This browser extension from AFP helps to analyze videos for signs of manipulation. It provides tips and resources to detect deepfakes. \n <a href='https://www.invid-project.eu/tools-and-services/invid-verification-plugin/'> InVID WeVerify</a>",
-  "informationpage-tools-dfandffc-bp4": "<strong>Sensity AI:</strong> This is a more advanced tool used by professionals, although it offers a free trial. It can analyze images and videos for signs of manipulation, including deepfakes. \n <a href='https://sensity.ai/'>Sensity AI</a>\n",
+  "informationpage-tools-dfandffc-bp1": "<strong><a href='https://images.google.com/'>Google Reverse Image Search:</a></strong> This free tool allows you to upload an image or provide a URL to see if it appears elsewhere online. It can help identify the original source and possible manipulations.\n",
+  "informationpage-tools-dfandffc-bp2": "<strong><a href='https://tineye.com/'>TinEye:</a></strong> Similar to Google Reverse Image Search, TinEye searches the web for similar images. It can be helpful in uncovering the origin of photos and possible edits.\n",
+  "informationpage-tools-dfandffc-bp3": "<strong><a href='https://www.invid-project.eu/tools-and-services/invid-verification-plugin/'>InVID WeVerify:</a></strong> This browser extension from AFP helps to analyze videos for signs of manipulation. It provides tips and resources to detect deepfakes. \n",
+  "informationpage-tools-dfandffc-bp4": "<strong><a href='https://sensity.ai/'>Sensity AI:</a></strong> This is a more advanced tool used by professionals, although it offers a free trial. It can analyze images and videos for signs of manipulation, including deepfakes.\n",
 
   "informationpage-factchecker-title": "Fake Fact Checkers:",
-  "informationpage-factchecker-bp1": "<strong>Snopes:</strong> A well-established website that debunks myths, urban legends, and misinformation. \n <a href='https://www.snopes.com/'> Snopes</a> \n",
-  "informationpage-factchecker-bp2": "<strong>PolitiFact:</strong> This fact-checking site focuses on verifying the accuracy of claims made by politicians. \n <a href='https://www.politifact.com/'> Politifact</a>\n",
-  "informationpage-factchecker-bp3": "<strong>FactCheck.org:</strong> This nonprofit organization verifies statements made in the news and by public figures. \n <a href='https://www.factcheck.org/](https://www.factcheck.org/'> Factcheck.org</a>\n",
-  "informationpage-factchecker-bp4": "<strong>International Fact-Checking Network:</strong> This website offers a directory of fact-checking organizations worldwide, so you can find resources in your specific language or region. \n <a href='https://ifcncodeofprinciples.poynter.org/](https://ifcncodeofprinciples.poynter.org/'> Fact-Checking Network</a>\n",
-
+  "informationpage-factchecker-bp1": "<strong><a href='https://www.snopes.com/'>Snopes:</a></strong> A well-established website that debunks myths, urban legends, and misinformation.\n",
+  "informationpage-factchecker-bp2": "<strong><a href='https://www.politifact.com/'>Politifact:</a></strong> This fact-checking site focuses on verifying the accuracy of claims made by politicians.\n",
+  "informationpage-factchecker-bp3": "<strong><a href='https://www.factcheck.org/](https://www.factcheck.org/'>FactCheck.org:</a></strong> This nonprofit organization verifies statements made in the news and by public figures.\n",
+  "informationpage-factchecker-bp4": "<strong><a href='https://ifcncodeofprinciples.poynter.org/](https://ifcncodeofprinciples.poynter.org/'>International Fact-Checking Network:</a></strong> This website offers a directory of fact-checking organizations worldwide, so you can find resources in your specific language or region.\n",
 
   "aboutus-title": "About Us",
   "aboutus-patronata-desc": "The AFP Patronato San Vincenzo is a vocational school that carries out training, education, assistance and social promotion activities. It takes care of the human and professional growth of the children and its workers, to maintain the educational and social guidelines of the founder Don Bepo Vavassori.",
@@ -44,7 +52,13 @@
   "privacyPolicyHeadline":"Privacy Policy for Another Fake, another Fact",
   "privacyPolicyUpdate": "<strong>Last Updated:</strong> 07.11.2024",
   "privacyPolicyIntro": "Welcome to Another Fake, another Fact, an EU-funded educational project aimed at promoting media literacy and combating misinformation. Your privacy is important to us, and this policy explains what minimal data we handle and how we ensure transparency and security for users.",
-  "privacyPolicyFirstEntry": "<strong>1. What Information We Collect</strong><li><ul><strong>No Personal Data Collection:</strong>We do not collect, store, or process any personal information from users. There is no login, registration, or account creation required to access our site or its features.</ul><ul><strong>Cookies and Session Data:</strong>Our website may use cookies solely for basic functionality (e.g., language preferences) or to understand how users interact with the site in aggregate (general usage data without identifying individuals). These cookies do not store personal data and can be managed in your browser settings.</ul></ol><ol><strong>How We Use Information</strong><ul><strong>Improving Site Experience:</strong></ul><ul><strong></strong></ul></ol><ol><strong></strong><ul><strong></strong></ul><ul><strong></strong></ul></ol><ol><strong></strong><ul><strong></strong></ul></ol><ol><strong></strong><ul><strong></strong></ul></ol><ol><strong></strong><ul><strong></strong></ul></ol><ol>"
+  "privacyPolicyFirstEntry": "<strong>What Information We Collect</strong><ul><li><strong>No Personal Data Collection:</strong>We do not collect, store, or process any personal information from users. There is no login, registration, or account creation required to access our site or its features.</li><li><strong>Cookies and Session Data:</strong>Our website may use cookies solely for basic functionality (e.g., language preferences) or to understand how users interact with the site in aggregate (general usage data without identifying individuals). These cookies do not store personal data and can be managed in your browser settings.</li></ul>",
+  "privacyPolicySecondEntry": "<strong>How We Use Information</strong><ul><li><strong>Improving Site Experience:</strong>Any basic data collected (like anonymized session interactions) is used only to improve site functionality and ensure our content is relevant and engaging. This data does not contain identifiable information.</li><li><strong>Third-Party News Feeds:</strong>We provide access to international news feeds so users can practice their fact-checking skills. No data is collected about users' interactions with these news feeds, and we do not provide feedback based on user activity.</li></ul>",
+  "privacyPolicyThirdEntry": "<strong>Data Sharing</strong><ul><li><strong>No Data Sharing:</strong>Since we do not collect personal data, there is no personal information to share, sell, or rent to third parties.</li><li><strong>Third-Party Services:</strong>If we use trusted third-party services (such as basic web analytics) to help improve our site, these services do not receive any personal data and follow strict security protocols.</li></ul>",
+  "privacyPolicyFourthEntry": "<strong>Your Privacy Rights</strong><ul><li>Since we do not collect personal data, there is no user information stored that requires access, modification, or deletion. Users are encouraged to manage cookie preferences through their browser settings if desired.</li></ul>",
+  "privacyPolicyFithEntry": "<strong>Data Security</strong><ul><li>Although we don’t collect personal data, we prioritize the security and integrity of our website and any associated resources. Basic security measures are in place to protect the site from unauthorized access and ensure a safe user experience.</li></ul>",
+  "privacyPolicySixthEntry": "<strong>Contact Information</strong><ul><li>If you have any questions about this privacy policy or the project, please visit our About Us page, where you can find contact details for each of the partner schools involved in this project.</li></ul>",
+  "privacyPolicyEnding": "Thank you for using “Another Fake, another Fact” and supporting our mission to create a well-informed, media-savvy community!"
 
 
 

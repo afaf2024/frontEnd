@@ -53,11 +53,11 @@ function game(text) {
 function checkAnswer(buttonValidation) {
     hideButtons();
     if (question.correct === buttonValidation) {
-        document.getElementById('quizResult').textContent = 'Why it is true';
+        document.getElementById('quizResult').textContent = 'Explanation';
         score++;
         document.getElementById('quizScore').textContent = 'Score: ' + score;
     } else {
-        document.getElementById('quizResult').textContent = 'Why it is fake';
+        document.getElementById('quizResult').textContent = 'Explanation';
     }
     document.getElementById('quizExplanation').textContent = question.realNew;
     document.getElementById('quizExplanation').style.display = 'block';
@@ -83,12 +83,31 @@ function nextQuestion(text) {
     if (assignedQuestion >= text.questions.length) {
         document.getElementById('quizButtonRestart').style.display = 'block';
         document.getElementById('quizButtonNext').style.display = 'none';
+        switch (currentLenguage) {
+            case 'es':
+                document.getElementById('quizResult').textContent = 'Has terminado de jugar! Quieres jugar de nuevo?';
+            break;
+            case 'en':
+                document.getElementById('quizResult').textContent = 'You Finished the Game! Want to Play Again?';
+            break;
+            case 'it':
+                document.getElementById('quizResult').textContent = 'Hai finito il gioco! Vuoi giocare di nuovo?';
+            break;
+            case 'de':
+                document.getElementById('quizResult').textContent = 'Du hast das Spiel beendet! Möchtest du nochmal spielen?';
+            default:
+                document.getElementById('quizResult').textContent = 'You Finished the Game! Want to Play Again?';
+        }
+  
+        
+        document.getElementById('quizExplanation').style.display = 'none';
     } else {
         showQuestion(text);
         document.getElementById('quizResult').textContent = '';
+        document.getElementById('quizExplanation').textContent = '';
         showButtons();
     }
-    document.getElementById('quizExplanation').style.display = 'none';
+   
 }
 
 function showQuestion(text) {
