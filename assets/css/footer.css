@@ -4,7 +4,7 @@
     color: white;
     text-align: center;
     padding: 20px;
-    font-family: Arial, sans-serif;
+    font-family: Poppins, sans-serif;
 }
 
 .footer-content {
@@ -43,4 +43,18 @@
 
 .privacyPolicy{
     width: 80%;
+}
+
+.privacyPolicy li{
+    color:white;
+}
+
+.privacyPolicy p{
+    color:white;
+}
+
+.privacyPolicyLine{
+    padding-bottom: 10px;
+    border-bottom: 2px solid white;
+
 }

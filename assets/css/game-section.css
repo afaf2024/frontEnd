@@ -8,12 +8,19 @@
 }
 
 #afaf-gametitle {
-    color: var(--bs-orange);
     font-size: 1.5rem;
-    margin-left: 30px;
-    margin-bottom: 15px;
+    margin-left: 2rem !important;
+    margin-top: -0.5rem !important;
+    font-size:1.5rem;
 }
 
+.title-orange{
+    color: #e8481d !important;
+}
+
+.title-yellow{
+    color:#f59c2c !important;
+}
 
 #game-section-flex {
     display: flex;
@@ -25,31 +32,25 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #a1a1a1;
-    width: 80%;
+    background-color: #cfcfcf;
+    width: 100%;
     border-radius: 2.5rem;
     align-self: center;
-
-
-
-
 }
 
 
 
 #game-image {
-
-
-
-
     width: 45vw !important;
-    height: 50vh !important;
+    height: auto !important;
 
     background-color: black;
 
     display: flex;
     justify-content: center;
     align-items: center;
+
+    max-width: 700px !important;
 
 }
 
@@ -71,10 +72,21 @@ font-size: 1.2rem;
 
 }
 
+#quiz-score-title-section {
+display: column;
+justify-content: center;
+align-content: center;    
+align-items: center;
+gap: 10%;
+}
 #video-section {
     margin-top: 50px;
 }
-
+#quizScore {
+    font-size: 1.5rem;
+    text-align: center;
+    border-radius: 5px;
+}
 
 #game-objective {
 

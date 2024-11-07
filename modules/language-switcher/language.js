@@ -51,9 +51,9 @@ function supportedOrDefault(locales) {
 function initializeLanguageDropdown(initialLocale) {
     const dropdownItems = document.querySelectorAll('.dropdown-item');
     const dropdownToggle = document.getElementById('countryDropdown');
-    const initialLanguageElement = document.querySelector('#language-' + initialLocale )
+    const initialLanguageElement = document.querySelector('#language-' + initialLocale)
     const initialFlag = initialLanguageElement.querySelector('.fi').className
-    const initialText =initialLanguageElement.innerText
+    const initialText = initialLanguageElement.innerText
     dropdownToggle.innerHTML = `<span class="${initialFlag}"></span> ${initialText}`
 
     dropdownItems.forEach(item => {
@@ -98,12 +98,13 @@ async function setLocale(newLocale) {
     locale = newLocale;
     translations = newTranslations;
     translatePage();
+    translateNavigation();
 }
 
 // Retrieve translations JSON object for the given
 // locale over the network
 async function fetchTranslationsFor(newLocale) {
-    const response = await fetch(`frontend/modules/language-switcher/data/${newLocale}.json`);
+    const response = await fetch(`../modules/language-switcher/data/${newLocale}.json`);
     return await response.json();
 }
 
@@ -135,4 +136,23 @@ function translateElement(element) {
 
     element.innerHTML = translation;
 
+
+
+}
+
+function translateNavigation() {
+    const navItems = {
+        "nav-homepage": "nav-homepage",
+        "nav-video": "nav-video",
+        "nav-quiz": "nav-quiz",
+        "nav-information": "nav-information",
+        "nav-about": "nav-about"
+    };
+
+    Object.keys(navItems).forEach(id => {
+        const element = document.getElementById(id);
+        if (element) {
+            element.textContent = translations[navItems[id]];
+        }
+    });
 }

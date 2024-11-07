@@ -61,14 +61,3 @@ The Erasmus project is a frontend web application designed to provide an interac
    git clone https://github.com/afaf2024/frontEnd.git
    ```
 
-2. **Install Dependencies**
-   Navigate to the project directory and run the following command:
-   ```bash
-   npm install
-   ```
-
-3. **Run the Project**
-   Once the dependencies are installed, start the application with:
-   ```bash
-   npm start
-   ```

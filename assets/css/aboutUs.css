@@ -49,3 +49,7 @@
         margin: auto !important;
     }
 }
+
+.about-school img{
+    align-self: center;
+}
