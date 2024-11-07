@@ -7,8 +7,15 @@ const cors = require("cors");
 const app = express();
 const PORT = 3000; 
 
+// Configure CORS middleware
+app.use(cors({
+  origin: 'http://localhost:3000', // Allow requests from this origin
+  methods: ['GET', 'POST', 'PUT', 'DELETE'], // Allow these HTTP methods
+  allowedHeaders: ['Content-Type', 'Authorization'] // Allow these headers
+}));
 
-app.use(cors());
+
+
 app.use(connectLiveReload());
 app.use(express.static(path.join(__dirname, '/')));
 

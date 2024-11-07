@@ -83,7 +83,22 @@ function nextQuestion(text) {
     if (assignedQuestion >= text.questions.length) {
         document.getElementById('quizButtonRestart').style.display = 'block';
         document.getElementById('quizButtonNext').style.display = 'none';
-        document.getElementById('quizResult').textContent = 'You Finished the Game! Want to Play Again?';
+        switch (currentLenguage) {
+            case 'es':
+                document.getElementById('quizResult').textContent = 'Has terminado de jugar! Quieres jugar de nuevo?';
+            break;
+            case 'en':
+                document.getElementById('quizResult').textContent = 'You Finished the Game! Want to Play Again?';
+            break;
+            case 'it':
+                document.getElementById('quizResult').textContent = 'Hai finito il gioco! Vuoi giocare di nuovo?';
+            break;
+            case 'de':
+                document.getElementById('quizResult').textContent = 'Du hast das Spiel beendet! Möchtest du nochmal spielen?';
+            default:
+                document.getElementById('quizResult').textContent = 'You Finished the Game! Want to Play Again?';
+        }
+  
         
         document.getElementById('quizExplanation').style.display = 'none';
     } else {

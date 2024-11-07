@@ -1,29 +1,47 @@
-let upvoteBtn;
-let upvoteCount = 0;
-
-async function newsData() {
-  try {
-    const response = await fetch("https://cors-anywhere.herokuapp.com/https://medium.com/feed/@will-carter", {
-      method: 'GET',
-      headers: {
-        'Content-Type': 'application/xml'
-      }, 
-      mode: 'cors'
 
 
+const cards = document.querySelectorAll('.ag-courses_item');
+const cardTitles = document.querySelectorAll('.ag-courses-item_title');
+
+async function setNews() {
+
+    const lang = document.documentElement.lang;
+    await getNews(lang);
+
+    cardTitles.forEach(cardTitles => {
+        
+            cardTitles.innerHTML = 'Noticia';
+
+        /*
+        caja.addEventListener('click', () => {
+            const id = caja.dataset.id;
+            window.location.href = `./news-detail.html?id=${id}`;
+        });
+        */
     });
-
-    response = await url.json();
-
-    const articleTitles = response.news.slice(0, 10).map(article => article.title);
     
-    console.log(articleTitles);
-
-  } catch (error) {
-    console.error("Fehler beim Abrufen der Daten:", error);
-  }
 }
 
-newsData();
 
-console.log("News-Modul geladen");
+async function getNews(lang) {
+
+    const response = await fetch(`https://erasmus.ieszaidinvergeles.es/fakeNews/public/api/news/${lang}`, {
+        method: 'GET',
+        headers: {
+            'Content-Type': 'application/xml',
+            'Access-Control-Allow-Origin': '*'
+        }
+    });
+
+    if (response.ok) {
+        const xml = await response.text();
+        const parser = new DOMParser();
+        const doc = parser.parseFromString(xml, 'application/xml');
+
+        // Aquí puedes procesar el documento XML
+        console.log(doc);
+    } else {
+        console.error('Error fetching news:', response.status);
+    }
+    
+}

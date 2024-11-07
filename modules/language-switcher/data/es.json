@@ -10,8 +10,13 @@
 
   "homepage-description": "<strong>Bienvenido a Another Fake, another Fact!</strong><br>En este proyecto financiado por la UE, os  invitamos a desarrollar vuestras  habilidades para identificar y enfrentar las noticias falsas de manera más eficaz.<br>Diseñado para fomentar la educación mediática y combatir la desinformación, esta pagina es el resultado de una colaboración internacional entre tres escuelas de Italia, Alemania y España, unidas para ofrecerte herramientas prácticas y efectivas.<br><br>A través de un quiz interactivo y un video dinámico, aprenderás a detectar patrones comunes en noticias falsas y a fortalecer tu capacidad crítica para distinguir la verdad en un entorno digital.<br><br>Nuestra iniciativa incluye métodos didácticos, prácticos y entretenidos que harán de este aprendizaje una experiencia atractiva y útil.<br><br>Construyamos entre todos una Europa informada, segura, y confiable.",
 
+  "quiz-title": "Cuestionario - ¿verdadero o falso?",
+
+
   "gamepage-title": "¿Por qué juegos?",
   "gamepage-description": "Aprender sobre las noticias falsas puede ser abrumador, pero ¿quién dice que no puede ser divertido? ¡Pon a prueba tus habilidades de detective con nuestro juego interactivo! Elige tu juego, tenemos diferentes tipos: imágenes, videos o noticias... \n¿Puedes distinguir lo verdadero de lo falso? \nEste juego es una excelente manera de: \n- Agudizar tus habilidades de pensamiento crítico. \n- Aprender a identificar señales de alerta en la información en línea. \n- Convertirte en un ciudadano más informado en la era digital. \n\nSi te gustaron los juegos, no te detengas ahí. Tenemos diferentes sitios, información, guías y herramientas en línea que puedes usar en nuestro sitio, para protegerte contra el contenido falso en la era de la información.\n",
+  "game-objective": "Este es un video donde una persona ve algunas noticias que le parecen interesantes, pero no está seguro si debería publicarlas o no. ¡Aquí es donde tú, el espectador, puedes ayudar! Se te presentará el dilema que nuestro amigo está teniendo y se te pedirá que tomes las decisiones por él.\nDescubre las consecuencias de tus elecciones y a dónde podrían llevarnos.",
+
 
   "informationpage-title": "Información",
   "informationpage-masquerade-title": "Desenmascarando la Manipulación: Las noticias falsas son mentiras evidentes, pero la manipulación puede ser más sutil. Distorsiona los hechos o utiliza disparadores emocionales para influir en tu opinión. Aprende a reconocer estas tácticas para convertirte en un ciudadano informado. Lamentablemente, no existen herramientas en línea para ayudarte en este tema, pero todos tenemos el poder de defendernos. Aquí tienes algunas estrategias:",
