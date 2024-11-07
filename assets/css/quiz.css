@@ -117,9 +117,7 @@ html {
     cursor: pointer;
 }
 
-#quizExplanation {
-    padding: 20px;
-}
+
 
 .quiz_element {
     background-color: #fff;
@@ -141,7 +139,7 @@ img {
 
 #explanation-flex {
     display: flex;
-    width: 80%;
+    width: 90%;
     justify-content: center;
     flex-direction: column;
     margin: auto;

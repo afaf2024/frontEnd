@@ -51,6 +51,8 @@ function game(text) {
 
 //checkAnswer
 function checkAnswer(buttonValidation) {
+    document.getElementById('quizExplanation').textContent = question.realNew;
+    document.getElementById('quizExplanation').style.display = 'block';
     hideButtons();
     if (question.correct === buttonValidation) {
         document.getElementById('quizResult').textContent = 'Explanation';
@@ -59,8 +61,7 @@ function checkAnswer(buttonValidation) {
     } else {
         document.getElementById('quizResult').textContent = 'Explanation';
     }
-    document.getElementById('quizExplanation').textContent = question.realNew;
-    document.getElementById('quizExplanation').style.display = 'block';
+   
 }
 
 //hideButtons
@@ -100,6 +101,8 @@ function nextQuestion(text) {
         }
   
         
+        document.getElementById('quizResult').textContent = 'You Finished the Game! Want to Play Again?';
+    
         document.getElementById('quizExplanation').style.display = 'none';
     } else {
         showQuestion(text);
