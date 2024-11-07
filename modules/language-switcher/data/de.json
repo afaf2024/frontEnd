@@ -1,4 +1,10 @@
 {
+  "nav-homepage": "Startseite",
+  "nav-video": "Videospiel",
+  "nav-quiz": "Quiz-Spiel",
+  "nav-information": "Information",
+  "nav-about": "Über uns",
+
   "index-startbutton": "Starten",
   "index-description": "Fake News sind irreführende oder erfundene Informationen, oft zur Manipulation. Möchtest du mehr über ihre Auswirkungen und wie man sie erkennt, erfahren?",
 

@@ -1,4 +1,10 @@
 {
+  "nav-homepage": "Pagina Iniziale",
+  "nav-video": "Videogioco",
+  "nav-quiz": "Gioco a Quiz",
+  "nav-information": "Informazioni",
+  "nav-about": "Chi Siamo",
+  
   "index-startbutton": "Inizia",
   "index-description": "Le fake news sono informazioni ingannevoli o fabbricate, spesso intese a manipolare. Vuoi saperne di più sul loro impatto e su come riconoscerle?",
 
