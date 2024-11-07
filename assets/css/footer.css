@@ -36,10 +36,20 @@
     height: 78px;
     margin-top: 2px !important;
 }
+
 .logos img {
     background-color: white;
     border-radius: 15px;
     padding: 15px;
+}
+
+@media (max-width:1200px){
+    .logos img{
+        margin: 10px 0 !important;
+        width:100%;
+        height:auto;
+        padding: 0 auto !important;
+    }
 }
 
 #footer-text p, #footer-text h2{

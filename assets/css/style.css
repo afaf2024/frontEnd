@@ -156,18 +156,6 @@
 }
 
 
-
-
-
-
-#footer-flex {
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: space-between;
-  gap: 300px;
-  box-sizing: border-box;
-}
-
 .foooterDesign a {
   color: white;
   text-decoration: none;
@@ -180,19 +168,17 @@
   flex: 1;
 }
 .logos img {
-  max-height: 100px;
+  height: 100px;
+  width: auto;
+  margin-left: 10px;
 }
 
 .logos {
-  display: flex;
-  justify-content: space-between;
-  gap: 20px;
   margin-top: 10px;
 }
 
 .foooterDesign .logos img {
   max-height: 100px;
-
 }
 
 .footer-text {
