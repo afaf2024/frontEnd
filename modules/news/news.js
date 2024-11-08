@@ -15,7 +15,8 @@ async function setNews() {
     
     const data = await getNews(lang);
     
-    console.log(data.original[0])
+    
+
 
     let cont = -1;
 
@@ -23,7 +24,9 @@ async function setNews() {
         
         cardTitle.innerHTML = data[++cont].title;
         cardDate[cont].innerHTML = data[cont].pubDate;
-        cardDescription[cont].innerHTML = data[cont].description;
+        cardDescription[cont].innerHTML = data[cont].description.length > 60 
+        ? data[cont].description.slice(0, 60) + '...'
+        : data[cont].description;
         
 
         
@@ -43,6 +46,9 @@ async function setNews() {
 
 
 async function getNews(lang) {
+    if (!lang) {
+        lang = 'en';
+    }
 
     const response = await fetch(`https://erasmus.ieszaidinvergeles.es/fakeNews/public/api/news/${lang}`, {
         method: 'GET',

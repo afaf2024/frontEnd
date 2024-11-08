@@ -35,6 +35,7 @@
     width: 286px;
     height: 78px;
     margin-top: 2px !important;
+    margin-left: auto;
 }
 
 .logos img {
@@ -63,4 +64,8 @@
     padding-bottom: 10px;
     border-bottom: 2px solid white;
 
+}
+
+.impressum-link{
+    color: white;
 }
