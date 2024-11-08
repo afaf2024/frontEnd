@@ -70,7 +70,14 @@ html {
     border-radius: 50px;
 }
 #quizButtonTrue{
-    border-color: ;
+    border-color: var(--bs-green);
+}
+
+#quizButtonFalse{
+    border-color: var(--bs-red);
+}
+#quizButtonFalse:hover{
+    background-color: var(--bs-red);
 }
 
 #quizButtonRestart {
