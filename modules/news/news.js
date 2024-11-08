@@ -21,9 +21,9 @@ async function setNews() {
 
     cardTitles.forEach(cardTitle => {
         
-        cardTitle.innerHTML = data.original[++cont].title;
-        cardDate[cont].innerHTML = data.original[cont].pubDate;
-        cardDescription[cont].innerHTML = data.original[cont].description;
+        cardTitle.innerHTML = data[++cont].title;
+        cardDate[cont].innerHTML = data[cont].pubDate;
+        cardDescription[cont].innerHTML = data[cont].description;
         
 
         
@@ -31,7 +31,7 @@ async function setNews() {
         const card = cardTitle.parentElement;
 
         card.addEventListener('click', () => {
-            window.open(data.original[cont].link, '_blank');
+                window.open(data[cont].link, '_blank');
         });
         
     
