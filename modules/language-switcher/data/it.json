@@ -4,7 +4,8 @@
   "nav-quiz": "Gioco a Quiz",
   "nav-information": "Informazioni",
   "nav-about": "Chi Siamo",
-  
+  "news-date-word": "Data",
+
   "index-startbutton": "Inizia",
   "index-description": "Le fake news sono informazioni ingannevoli o fabbricate, spesso intese a manipolare. Vuoi saperne di più sul loro impatto e su come riconoscerle?",
 
@@ -65,7 +66,22 @@
   "privacyPolicyFourthEntry": "<strong>I tuoi diritti sulla privacy</strong><ul><li>Poiché non raccogliamo dati personali, non ci sono informazioni dell'utente memorizzate che richiedano accesso, modifica o cancellazione. Gli utenti sono incoraggiati a gestire le preferenze dei cookie tramite le impostazioni del proprio browser, se desiderato.</li></ul>",
   "privacyPolicyFithEntry": "<strong>Sicurezza dei dati</strong><ul><li>Anche se non raccogliamo dati personali, diamo priorità alla sicurezza e all'integrità del nostro sito web e delle risorse ad esso associate. Sono in atto misure di sicurezza di base per proteggere il sito da accessi non autorizzati e garantire un'esperienza utente sicura.</li></ul>",
   "privacyPolicySixthEntry": "<strong>Informazioni di contatto</strong><ul><li>Se hai domande su questa politica sulla privacy o sul progetto, visita la nostra pagina Chi Siamo, dove troverai i dettagli di contatto per ciascuna delle scuole partner coinvolte in questo progetto.</li></ul>",
-  "privacyPolicyEnding": "Grazie per utilizzare “Another Fake, another Fact” e per sostenere il nostro lavoro per garantire una comunità ben informata e consapevole nell'uso dei media!"
+  "privacyPolicyEnding": "Grazie per utilizzare “Another Fake, another Fact” e per sostenere il nostro lavoro per garantire una comunità ben informata e consapevole nell'uso dei media!",
   
   
+  "impressum-project-name": "<strong>Nome del Progetto</strong> Un Altro Falso, Un'Altra Verità",
+  "impressum-responsible-content": "<strong>Responsabile del Contenuto (ai sensi del § 5 TMG):</strong>",
+  "impressum-school-names": "<strong>Nome/i della Scuola</strong>",
+  "impressum-school-names-li1": "Associazione Formazione Professionale Patronato San Vincenzo",
+  "impressum-school-names-li2": "Georg Simon Ohm Berufskolleg",
+  "impressum-school-names-li3": "Instituto de Educacion Secundaria Zaidin-Vergeles",
+  "impressum-addr-contact-information": "<strong>Indirizzo e informazioni di contatto</strong>",
+  "impressum-addr-contact-information-li1": "<strong>AFP Patronato San Vincenzo</strong><br>Indirizzo: Via Mauro Gavazzeni, 3, 24125, Bergamo, BG, Italia.<br>Numero di telefono: +39 035 319361<br>Email: info@patronatosanvincenzo.it",
+  "impressum-addr-contact-information-li2": "<strong>Georg-Simon-Ohm Berufsschule</strong><br>Indirizzo: Berufskolleg Westerwaldstrasse 92<br>51105 Colonia<br>Numero di telefono: +49 0221 83913-0<br>Email: buero@gso.schule.koeln",
+  "impressum-addr-contact-information-li3": "<strong>IES Zaidin Vergeles</strong><br>Indirizzo: C/Primavera, 26-28, 18008 Granada, Andalusia, Spagna<br>Numero di telefono: +34 958 893850<br>Email: secretaria@ieszaidinvergers.org",
+  "impressum-project-partners": "<strong>Partner di Progetto</strong><br>Questo sito web fa parte di una collaborazione educativa tra tre scuole in Italia, Germania e Spagna, supportata da un'iniziativa finanziata dall'UE.",
+  "impressum-editorial-responsibility": "<strong>Responsabilità Editoriale:</strong>",
+  "impressum-editorial-responsibility-content": "I contenuti di questo sito web sono gestiti e mantenuti dai team di progetto delle scuole partecipanti. Per maggiori informazioni, visita la nostra pagina <a href='aboutUs.html'>Chi Siamo</a>.",
+  "impressum-disclaimer": "<strong>Clausola di esclusione della responsabilità:</strong>",
+  "impressum-disclaimer-content": "I contenuti di questo sito sono solo a scopo educativo. Il progetto mira a sensibilizzare sulle fake news e promuovere la competenza mediatica. Nonostante i nostri sforzi per garantire l'accuratezza, non possiamo assicurare la completezza o l'accuratezza dei contenuti di notizie forniti da fonti di terze parti."
 }

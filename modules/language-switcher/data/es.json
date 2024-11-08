@@ -4,7 +4,7 @@
   "nav-quiz": "Juego de Preguntas",
   "nav-information": "Información",
   "nav-about": "Sobre Nosotros",
-
+  "news-date-word": "Fecha",
   "index-startbutton": "Comenzar",
   "index-description": "Las noticias falsas son información engañosa o alterada, a menudo con la intención de manipular. ¿Te gustaría aprender más sobre su impacto y cómo reconocerlas?",
 
@@ -65,7 +65,22 @@
   "privacyPolicyFourthEntry": "<strong>Derechos de Privacidad</strong><ul><li>Dado que no recopilamos datos personales, no hay información de usuario almacenada que requiera acceso, modificación o eliminación. Se recomienda a los usuarios gestionar las preferencias de cookies a través de la configuración de su navegador si lo desean.</li></ul>",
   "privacyPolicyFithEntry": "<strong>Seguridad de los Datos</strong><ul><li>Aunque no recopilamos datos personales, priorizamos la seguridad e integridad de nuestro sitio web y de los recursos asociados. Se han implementado medidas de seguridad básicas para proteger el sitio contra accesos no autorizados y garantizar una experiencia de usuario segura.</li></ul>",
   "privacyPolicySixthEntry": "<strong>Información de Contacto</strong><ul><li>Si tienes alguna pregunta sobre esta política de privacidad o sobre el proyecto, por favor visita nuestra página Acerca de Nosotros, donde puedes encontrar los datos de contacto de cada una de las escuelas asociadas en este proyecto.</li></ul>",
-  "privacyPolicyEnding": "¡Gracias por usar “Another Fake, another Fact” y apoyar nuestra misión de crear una comunidad bien informada y consciente de los medios!"
+  "privacyPolicyEnding": "¡Gracias por usar “Another Fake, another Fact” y apoyar nuestra misión de crear una comunidad bien informada y consciente de los medios!",
 
 
+  "impressum-project-name": "<strong>Nombre del Proyecto</strong> Otro Fake, Otro Hecho",
+  "impressum-responsible-content": "<strong>Responsable del Contenido (según § 5 TMG):</strong>",
+  "impressum-school-names": "<strong>Nombre(s) de la Escuela</strong>",
+  "impressum-school-names-li1": "Associazione Formazione Professionale Patronato San Vincenzo",
+  "impressum-school-names-li2": "Georg Simon Ohm Berufskolleg",
+  "impressum-school-names-li3": "Instituto de Educación Secundaria Zaidin-Vergeles",
+  "impressum-addr-contact-information": "<strong>Dirección e información de contacto</strong>",
+  "impressum-addr-contact-information-li1": "<strong>AFP Patronato San Vincenzo</strong><br>Dirección: Via Mauro Gavazzeni, 3, 24125, Bérgamo, BG, Italia.<br>Teléfono: +39 035 319361<br>Email: info@patronatosanvincenzo.it",
+  "impressum-addr-contact-information-li2": "<strong>Escuela de Formación Profesional Georg-Simon-Ohm</strong><br>Dirección: Berufskolleg Westerwaldstrasse 92<br>51105 Colonia<br>Teléfono: +49 0221 83913-0<br>Email: buero@gso.schule.koeln",
+  "impressum-addr-contact-information-li3": "<strong>IES Zaidin Vergeles</strong><br>Dirección: C/Primavera, 26-28, 18008 Granada, Andalucía, España<br>Teléfono: +34 958 893850<br>Email: secretaria@ieszaidinvergers.org",
+  "impressum-project-partners": "<strong>Socios del Proyecto</strong><br>Este sitio web es parte de una colaboración educativa entre tres escuelas en Italia, Alemania y España, apoyada por una iniciativa financiada por la UE.",
+  "impressum-editorial-responsibility": "<strong>Responsabilidad Editorial:</strong>",
+  "impressum-editorial-responsibility-content": "El contenido de este sitio web es gestionado y mantenido por los equipos del proyecto de las escuelas participantes. Para más información, visita nuestra página de <a href='aboutUs.html'>Sobre Nosotros</a>.",
+  "impressum-disclaimer": "<strong>Descargo de responsabilidad:</strong>",
+  "impressum-disclaimer-content": "El contenido de este sitio es solo para fines educativos. El proyecto tiene como objetivo sensibilizar sobre las noticias falsas y promover la alfabetización mediática. A pesar de nuestros esfuerzos por asegurar la precisión, no podemos garantizar la totalidad o exactitud del contenido de noticias proporcionado a través de fuentes de terceros."
 }
