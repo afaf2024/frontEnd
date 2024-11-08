@@ -2,7 +2,6 @@ html {
     scroll-behavior: smooth;
 }
 
-
 .quizSection {
     display: flex;
     align-items: center;
@@ -13,11 +12,8 @@ html {
     box-sizing: border-box;
 }
 
-
-
 #quizGame {
     display: flex;
-
     height: 500px;
     width: 800px;
     flex-flow: column;
@@ -25,13 +21,11 @@ html {
 }
 
 #quizTestImage {
-
     display: none;
     object-fit: cover;
     width: 100% !important;
     height: auto !important;
     max-width: 700px !important;
-
 }
 
 
@@ -152,8 +146,6 @@ html {
     color: white;
     cursor: pointer;
 }
-
-
 
 .quiz_element {
     background-color: #fff;

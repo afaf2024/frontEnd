@@ -1,14 +1,9 @@
-
-
 const cards = document.querySelectorAll('.ag-courses_item');
 const cardTitles = document.querySelectorAll('.ag-courses-item_title');
 const cardDate = document.querySelectorAll('.ag-courses-item_date');
 const cardDescription = document.querySelectorAll('.ag-courses-item_description');
 
-
-
 let fetchedData = [];
-
 
 async function setNews() {
     const lang = localStorage.getItem("lang");
@@ -66,19 +61,30 @@ async function createPdf() {
     const titleFontSize = 14;
     const dateFontSize = 12;
     const descFontSize = 10;
+    const linkFontSize = 10;
     
     // Verificar si hay noticias
     if (fetchedData.length === 0) {
         await setNews();
     }
-    
-    // Recorrer las noticias
+
     fetchedData.forEach((news, index) => {
+        
+        // Calcular espacio requerido para cada sección
+        const titleLines = pdf.splitTextToSize(news.title, 180).length;
+        const descLines = pdf.splitTextToSize(news.description, 180).length;
+        const linkLines = pdf.splitTextToSize(news.link, 180).length;
+        const sectionHeight = (titleLines + descLines + linkLines + 3) * lineHeight;
+
+        // Crear nueva página si el contenido no cabe completo
+        if (yOffset + sectionHeight > pdf.internal.pageSize.height - margin) {
+            pdf.addPage();
+            yOffset = margin;
+        }
         
         // Título
         pdf.setFontSize(titleFontSize);
         pdf.setTextColor(0, 51, 102);
-
         const splitTitle = pdf.splitTextToSize(news.title, 180);
         splitTitle.forEach(line => {
             pdf.text(line, margin, yOffset);
@@ -91,7 +97,7 @@ async function createPdf() {
         pdf.text(`Fecha: ${news.pubDate}`, margin, yOffset);
         yOffset += lineHeight;
         
-        // Descripción con salto de línea si es largo
+        // Descripción
         pdf.setFontSize(descFontSize);
         pdf.setTextColor(50, 50, 50);
         const splitDescription = pdf.splitTextToSize(news.description, 180);
@@ -100,29 +106,18 @@ async function createPdf() {
             yOffset += lineHeight;
         });
 
-        // link
-
+        // Enlace
+        pdf.setFontSize(linkFontSize);
         pdf.setTextColor(0, 0, 255);
-
-
         const splitLink = pdf.splitTextToSize(news.link, 180);
         splitLink.forEach(line => {
             pdf.text(line, margin, yOffset);
             yOffset += lineHeight;
         });
-
         
-
-        
-        yOffset += lineHeight * 1.5;  // Espacio entre noticias
-
-        // Crear nueva página si el contenido llega al borde
-        if (yOffset > pdf.internal.pageSize.height - margin) {
-            pdf.addPage();
-            yOffset = margin;
-        }
+        yOffset += lineHeight * 1.3;  // Espacio entre noticias
     });
-    
+
     // Descargar el PDF
     pdf.save('Noticias_Erasmus.pdf');
 }

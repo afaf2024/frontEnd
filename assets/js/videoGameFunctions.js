@@ -14,9 +14,6 @@ let dataFromAPI;
 let actualVideo = 0;
 
 
-
-
-
 window.onload = async () => {
 
     dataFromAPI = await fetchVideoFromAPI();
@@ -29,7 +26,6 @@ window.onload = async () => {
     
 
 };
-
 
 
 //Set First Video

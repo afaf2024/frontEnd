@@ -1,10 +1,6 @@
 /* this sections gives style to quiz game and videogame */
-
-
-
 #main-Section {
     margin: 10px 100px 20px 100px;
-
 }
 
 #afaf-gametitle {
@@ -37,8 +33,6 @@
     border-radius: 2.5rem;
     align-self: center;
 }
-
-
 
 #game-image {
     width: 45vw !important;
@@ -86,11 +80,6 @@ gap: 10%;
     font-size: 1.5rem;
     text-align: center;
     border-radius: 5px;
-}
-
-#game-objective {
-
-
 }
 
 #page-title {
