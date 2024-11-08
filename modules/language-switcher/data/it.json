@@ -4,7 +4,8 @@
   "nav-quiz": "Gioco a Quiz",
   "nav-information": "Informazioni",
   "nav-about": "Chi Siamo",
-  
+  "news-date-word": "Data",
+
   "index-startbutton": "Inizia",
   "index-description": "Le fake news sono informazioni ingannevoli o fabbricate, spesso intese a manipolare. Vuoi saperne di più sul loro impatto e su come riconoscerle?",
 
@@ -42,8 +43,8 @@
   "informationpage-factchecker-title": "Verificatori di Fatti Falsi:",
   "informationpage-factchecker-bp1": "<strong><a href='https://www.snopes.com/'> Snopes:</a></strong> Un sito ben consolidato che smonta miti, leggende metropolitane e disinformazione.\n",
   "informationpage-factchecker-bp2": "<strong><a href='https://www.politifact.com/'> Politifact:</a></strong> Questo sito di fact-checking si concentra sulla verifica dell'accuratezza delle affermazioni fatte dai politici. \n",
-  "informationpage-factchecker-bp3": "<strong><a href='https://www.factcheck.org/](https://www.factcheck.org/'> Factcheck.org:</a></strong> Questa organizzazione no-profit verifica le dichiarazioni fatte nei notiziari e da personaggi pubblici.\n",
-  "informationpage-factchecker-bp4": "<strong><a href='https://ifcncodeofprinciples.poynter.org/](https://ifcncodeofprinciples.poynter.org/'>International Fact-Checking Network:</a></strong> Questo sito offre un elenco di organizzazioni di fact-checking a livello mondiale, in modo da poter trovare risorse nella tua lingua o regione specifica. \n",
+  "informationpage-factchecker-bp3": "<strong><a href='https://www.factcheck.org/'> Factcheck.org:</a></strong> Questa organizzazione no-profit verifica le dichiarazioni fatte nei notiziari e da personaggi pubblici.\n",
+  "informationpage-factchecker-bp4": "<strong><a href='https://ifcncodeofprinciples.poynter.org/'>International Fact-Checking Network:</a></strong> Questo sito offre un elenco di organizzazioni di fact-checking a livello mondiale, in modo da poter trovare risorse nella tua lingua o regione specifica. \n",
 
   "aboutus-title": "Chi Siamo",
   "aboutus-patronata-desc": "L'AFP Patronato San Vincenzo è una scuola professionale che svolge attività di formazione, educazione, assistenza e promozione sociale. Si occupa della crescita umana e professionale dei ragazzi e dei suoi lavoratori, per mantenere le linee guida educative e sociali del fondatore Don Bepo Vavassori.",

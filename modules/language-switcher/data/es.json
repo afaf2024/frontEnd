@@ -4,7 +4,7 @@
   "nav-quiz": "Juego de Preguntas",
   "nav-information": "Información",
   "nav-about": "Sobre Nosotros",
-
+  "news-date-word": "Fecha",
   "index-startbutton": "Comenzar",
   "index-description": "Las noticias falsas son información engañosa o alterada, a menudo con la intención de manipular. ¿Te gustaría aprender más sobre su impacto y cómo reconocerlas?",
 
@@ -42,8 +42,8 @@
   "informationpage-factchecker-title": "Verificadores de hechos falsos:",
   "informationpage-factchecker-bp1": "<strong><a href='https://www.snopes.com/'>Snopes:</a> </strong> Un sitio web bien establecido que desmiente mitos, leyendas urbanas y desinformación.\n",
   "informationpage-factchecker-bp2": "<strong><a href='https://www.politifact.com/'>PolitiFact:</a></strong> Este sitio de verificación de hechos se centra en verificar la precisión de las afirmaciones de los políticos.\n",
-  "informationpage-factchecker-bp3": "<strong><a href='https://www.factcheck.org/](https://www.factcheck.org/'>FactCheck.org:</a></strong> Esta organización sin fines de lucro verifica las declaraciones realizadas en las noticias y por figuras públicas.\n",
-  "informationpage-factchecker-bp4": "<strong><a href='https://ifcncodeofprinciples.poynter.org/](https://ifcncodeofprinciples.poynter.org/'>International Fact-Checking Network:</a></strong> Este sitio web ofrece un directorio de organizaciones de verificación de hechos a nivel mundial, para que puedas encontrar recursos en tu idioma o región.\n",
+  "informationpage-factchecker-bp3": "<strong><a href='https://www.factcheck.org/'>FactCheck.org:</a></strong> Esta organización sin fines de lucro verifica las declaraciones realizadas en las noticias y por figuras públicas.\n",
+  "informationpage-factchecker-bp4": "<strong><a href='https://ifcncodeofprinciples.poynter.org/'>International Fact-Checking Network:</a></strong> Este sitio web ofrece un directorio de organizaciones de verificación de hechos a nivel mundial, para que puedas encontrar recursos en tu idioma o región.\n",
 
   "aboutus-title": "Acerca de Nosotros",
   "aboutus-patronata-desc": "El AFP Patronato San Vincenzo es una escuela vocacional que realiza actividades de formación, educación, asistencia y promoción social. Se encarga del crecimiento humano y profesional de los niños y sus trabajadores, para mantener las directrices educativas y sociales del fundador Don Bepo Vavassori.",
@@ -82,6 +82,5 @@
   "impressum-editorial-responsibility-content": "Los contenidos de este sitio web son gestionados y mantenidos por los equipos de proyecto de los centros participantes. Para más información, visite <a href='aboutUs.html'>About Us</a>",
   "impressum-disclaimer": "<strong>Descargo de responsabilidad:</strong>",
   "impressum-disclaimer-content": "El contenido de este sitio tiene únicamente fines educativos. El proyecto pretende concienciar sobre las noticias falsas y promover la alfabetización mediática. A pesar de nuestros esfuerzos por asegurar la exactitud, no podemos garantizar la integridad o exactitud del contenido de las noticias proporcionadas a través de fuentes de terceros."
-
 
 }

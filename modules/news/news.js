@@ -7,41 +7,30 @@ const cardDescription = document.querySelectorAll('.ag-courses-item_description'
 
 
 
+let fetchedData = [];
 
 
 async function setNews() {
-
     const lang = localStorage.getItem("lang");
-    
     const data = await getNews(lang);
-    
-    
 
+    cardTitles.forEach((cardTitle, index) => {
+        // Usamos el índice `index` para obtener los datos de cada tarjeta
+        cardTitle.innerHTML = data[index].title;
+        cardDate[index].innerHTML = data[index].pubDate;
+        cardDescription[index].innerHTML = data[index].description.length > 60 
+            ? data[index].description.slice(0, 60) + '...'
+            : data[index].description;
 
-    let cont = -1;
+        // Obtener el enlace correspondiente al card actual
+        const link = data[index].link;
 
-    cardTitles.forEach(cardTitle => {
-        
-        cardTitle.innerHTML = data[++cont].title;
-        cardDate[cont].innerHTML = data[cont].pubDate;
-        cardDescription[cont].innerHTML = data[cont].description.length > 60 
-        ? data[cont].description.slice(0, 60) + '...'
-        : data[cont].description;
-        
-
-        
-        // Open a new tab but dont focus on it (open in background)
+        // Asociar el evento de clic para abrir el enlace en una nueva pestaña
         const card = cardTitle.parentElement;
-
         card.addEventListener('click', () => {
-                window.open(data[cont].link, '_blank');
+            window.open(link, '_blank');
         });
-        
-    
-        
-        
     });
-    
 }
 
 
@@ -61,7 +50,81 @@ async function getNews(lang) {
     // json
     const data = await response.json();
     
+    fetchedData = data;
    
     return data;
     
 }
+
+async function createPdf() {
+    const pdf = new jsPDF();
+    let margin = 12;
+    let lineHeight = 10;
+    let yOffset = margin;
+    
+    // Ajustes de estilo
+    const titleFontSize = 14;
+    const dateFontSize = 12;
+    const descFontSize = 10;
+    const linkFontSize = 10;
+    
+    // Verificar si hay noticias
+    if (fetchedData.length === 0) {
+        await setNews();
+    }
+
+    fetchedData.forEach((news, index) => {
+        
+        // Calcular espacio requerido para cada sección
+        const titleLines = pdf.splitTextToSize(news.title, 180).length;
+        const descLines = pdf.splitTextToSize(news.description, 180).length;
+        const linkLines = pdf.splitTextToSize(news.link, 180).length;
+        const sectionHeight = (titleLines + descLines + linkLines + 3) * lineHeight;
+
+        // Crear nueva página si el contenido no cabe completo
+        if (yOffset + sectionHeight > pdf.internal.pageSize.height - margin) {
+            pdf.addPage();
+            yOffset = margin;
+        }
+        
+        // Título
+        pdf.setFontSize(titleFontSize);
+        pdf.setTextColor(0, 51, 102);
+        const splitTitle = pdf.splitTextToSize(news.title, 180);
+        splitTitle.forEach(line => {
+            pdf.text(line, margin, yOffset);
+            yOffset += lineHeight;
+        });
+        
+        // Fecha
+        pdf.setFontSize(dateFontSize);
+        pdf.setTextColor(100);
+        pdf.text(`Fecha: ${news.pubDate}`, margin, yOffset);
+        yOffset += lineHeight;
+        
+        // Descripción
+        pdf.setFontSize(descFontSize);
+        pdf.setTextColor(50, 50, 50);
+        const splitDescription = pdf.splitTextToSize(news.description, 180);
+        splitDescription.forEach(line => {
+            pdf.text(line, margin, yOffset);
+            yOffset += lineHeight;
+        });
+
+        // Enlace
+        pdf.setFontSize(linkFontSize);
+        pdf.setTextColor(0, 0, 255);
+        const splitLink = pdf.splitTextToSize(news.link, 180);
+        splitLink.forEach(line => {
+            pdf.text(line, margin, yOffset);
+            yOffset += lineHeight;
+        });
+        
+        yOffset += lineHeight * 1.3;  // Espacio entre noticias
+    });
+
+    // Descargar el PDF
+    pdf.save('Noticias_Erasmus.pdf');
+}
+
+

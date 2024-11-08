@@ -4,6 +4,7 @@
   "nav-quiz": "Quiz Game",
   "nav-information": "Information",
   "nav-about": "About Us",
+  "news-date-word": "Date",
 
   "index-startbutton": "Start",
   "index-description": "Fake news are misleading or fabricated information, often intended for manipulation. Would you like to learn more about their impact and how to recognize them?",
@@ -39,8 +40,8 @@
   "informationpage-factchecker-title": "Fake Fact Checkers:",
   "informationpage-factchecker-bp1": "<strong><a href='https://www.snopes.com/'>Snopes:</a></strong> A well-established website that debunks myths, urban legends, and misinformation.\n",
   "informationpage-factchecker-bp2": "<strong><a href='https://www.politifact.com/'>Politifact:</a></strong> This fact-checking site focuses on verifying the accuracy of claims made by politicians.\n",
-  "informationpage-factchecker-bp3": "<strong><a href='https://www.factcheck.org/](https://www.factcheck.org/'>FactCheck.org:</a></strong> This nonprofit organization verifies statements made in the news and by public figures.\n",
-  "informationpage-factchecker-bp4": "<strong><a href='https://ifcncodeofprinciples.poynter.org/](https://ifcncodeofprinciples.poynter.org/'>International Fact-Checking Network:</a></strong> This website offers a directory of fact-checking organizations worldwide, so you can find resources in your specific language or region.\n",
+  "informationpage-factchecker-bp3": "<strong><a href='https://www.factcheck.org/'>FactCheck.org:</a></strong> This nonprofit organization verifies statements made in the news and by public figures.\n",
+  "informationpage-factchecker-bp4": "<strong><a href='https://ifcncodeofprinciples.poynter.org/'>International Fact-Checking Network:</a></strong> This website offers a directory of fact-checking organizations worldwide, so you can find resources in your specific language or region.\n",
 
   "aboutus-title": "About Us",
   "aboutus-patronata-desc": "The AFP Patronato San Vincenzo is a vocational school that carries out training, education, assistance and social promotion activities. It takes care of the human and professional growth of the children and its workers, to maintain the educational and social guidelines of the founder Don Bepo Vavassori.",
