@@ -65,19 +65,27 @@ html {
     color: white;
     margin-left: 30px;
     margin-right: 30px;
+    margin-top: 15px;
     gap: 30px;
     border: 2px solid;
     border-radius: 50px;
 }
 #quizButtonTrue{
     border-color: var(--bs-green);
+   
+}
+#quizButtonTrue:hover{
+background-color: var(--bs-green);
+transition: background-color 0.2s;
 }
 
 #quizButtonFalse{
     border-color: var(--bs-red);
+
 }
 #quizButtonFalse:hover{
     background-color: var(--bs-red);
+    transition: background-color 0.2s;
 }
 
 #quizButtonRestart {
