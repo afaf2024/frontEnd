@@ -10,9 +10,6 @@ let defaultImage =
 const loader = document.getElementById("loader");
 const image = document.getElementById("quizTestImage");
 
-
-
-
 async function init () {
     const response = await fetch(`https://erasmus.ieszaidinvergeles.es/fakeNews/public/api/quizimg/${currentLenguage}`);
     const text = await response.json();
@@ -59,10 +56,13 @@ function checkAnswer(buttonValidation) {
     document.getElementById('quizResult').innerHTML = `You are Right! <span class="material-symbols-outlined">check</span>`;
         score++;
         document.getElementById('quizScore').textContent = 'Score: ' + score;
+        document.getElementById('quizScore').style.display = 'block';
     } else {
         // document.getElementById('quizResult').textContent = 'You Failed!';
         document.getElementById('quizResult').innerHTML = `You Failed! <span class="material-symbols-outlined" id="close">close</span>`;
     }
+   
+  
    
 }
 
