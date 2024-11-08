@@ -55,11 +55,13 @@ function checkAnswer(buttonValidation) {
     document.getElementById('quizExplanation').style.display = 'block';
     hideButtons();
     if (question.correct === buttonValidation) {
-        document.getElementById('quizResult').textContent = 'Explanation';
+    // document.getElementById('quizResult').textContent = 'You Are Right!';
+    document.getElementById('quizResult').innerHTML = `You are Right! <span class="material-symbols-outlined">check</span>`;
         score++;
         document.getElementById('quizScore').textContent = 'Score: ' + score;
     } else {
-        document.getElementById('quizResult').textContent = 'Explanation';
+        // document.getElementById('quizResult').textContent = 'You Failed!';
+        document.getElementById('quizResult').innerHTML = `You Failed! <span class="material-symbols-outlined" id="close">close</span>`;
     }
    
 }

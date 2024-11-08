@@ -181,6 +181,12 @@
   }
 }
 
+@media (max-width:1100px) {
+  #nav-list{
+    margin-left:28vw !important;
+  }
+}
+
 @media (max-width:1000px){
   #nav-list{
     margin-left: 25vw !important;
