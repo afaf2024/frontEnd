@@ -81,6 +81,19 @@ a {
     color: #ffffff;
   } */
 
+
+  .ag-courses-item_description {
+    color: var(--bs-gray-dark);
+    position: relative;
+    z-index: 10;
+  }
+
+  .ag-courses-item_link:hover  .ag-courses-item_description {
+    color: white;
+    display: block !important;
+    transition: color 0.2s;
+  }
+
   .ag-courses-item_date-box {
     font-size: 1.125rem; /* antes era 18px */
     color: black;
