@@ -62,8 +62,23 @@
   "privacyPolicyFourthEntry": "<strong>Your Privacy Rights</strong><ul><li>Since we do not collect personal data, there is no user information stored that requires access, modification, or deletion. Users are encouraged to manage cookie preferences through their browser settings if desired.</li></ul>",
   "privacyPolicyFithEntry": "<strong>Data Security</strong><ul><li>Although we don’t collect personal data, we prioritize the security and integrity of our website and any associated resources. Basic security measures are in place to protect the site from unauthorized access and ensure a safe user experience.</li></ul>",
   "privacyPolicySixthEntry": "<strong>Contact Information</strong><ul><li>If you have any questions about this privacy policy or the project, please visit our About Us page, where you can find contact details for each of the partner schools involved in this project.</li></ul>",
-  "privacyPolicyEnding": "Thank you for using “Another Fake, another Fact” and supporting our mission to create a well-informed, media-savvy community!"
+  "privacyPolicyEnding": "Thank you for using “Another Fake, another Fact” and supporting our mission to create a well-informed, media-savvy community!",
 
+  "impressum-project-name": "<strong>Impressum</strong>",
+  "impressum-responsible-content": "<strong>Project Name</strong> Another Fake, Another Fact",
+  "impressum-school-names": "",
+  "impressum-school-names-li1": "",
+  "impressum-school-names-li2": "",
+  "impressum-school-names-li3": "",
+  "impressum-addr-contact-information": "",
+  "impressum-addr-contact-information-li1": "",
+  "impressum-addr-contact-information-li2": "",
+  "impressum-addr-contact-information-li3": "",
+  "impressum-project-partners": "",
+  "impressum-editorial-responsibility-content": "",
+  "impressum-disclaimer": "",
+  "impressum-disclaimer-content": ""
 
+  
 
 }
