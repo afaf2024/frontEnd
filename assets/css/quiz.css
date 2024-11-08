@@ -2,7 +2,6 @@ html {
     scroll-behavior: smooth;
 }
 
-
 .quizSection {
     display: flex;
     align-items: center;
@@ -13,11 +12,8 @@ html {
     box-sizing: border-box;
 }
 
-
-
 #quizGame {
     display: flex;
-
     height: 500px;
     width: 800px;
     flex-flow: column;
@@ -25,13 +21,11 @@ html {
 }
 
 #quizTestImage {
-
     display: none;
     object-fit: cover;
     width: 45vw !important;
     height: 50vh !important;
     max-width: 700px !important;
-
 }
 
 @media screen and (max-width: 768px) {
@@ -70,19 +64,20 @@ html {
     border: 2px solid;
     border-radius: 50px;
 }
+
 #quizButtonTrue{
     border-color: var(--bs-green);
-   
 }
+
 #quizButtonTrue:hover{
-background-color: var(--bs-green);
-transition: background-color 0.2s;
+    background-color: var(--bs-green);
+    transition: background-color 0.2s;
 }
 
 #quizButtonFalse{
     border-color: var(--bs-red);
-
 }
+
 #quizButtonFalse:hover{
     background-color: var(--bs-red);
     transition: background-color 0.2s;
@@ -138,8 +133,6 @@ transition: background-color 0.2s;
     color: white;
     cursor: pointer;
 }
-
-
 
 .quiz_element {
     background-color: #fff;
