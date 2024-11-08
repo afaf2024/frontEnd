@@ -34,7 +34,7 @@ async function setNews() {
         const card = cardTitle.parentElement;
 
         card.addEventListener('click', () => {
-            window.open(data.original[cont].link, '_blank');
+                window.open(data[cont].link, '_blank');
         });
         
     
