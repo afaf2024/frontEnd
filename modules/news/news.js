@@ -14,24 +14,27 @@ async function setNews() {
     const lang = localStorage.getItem("lang");
     
     const data = await getNews(lang);
+    
+    console.log(data.original[0])
 
     let cont = -1;
 
     cardTitles.forEach(cardTitle => {
         
-        cardTitle.innerHTML = data[++cont].title;
-        cardDate[cont].innerHTML = data[cont].pubDate;
-        cardDescription[cont].innerHTML = data[cont].description;
+        cardTitle.innerHTML = data.original[++cont].title;
+        cardDate[cont].innerHTML = data.original[cont].pubDate;
+        cardDescription[cont].innerHTML = data.original[cont].description;
+        
 
         
         // Open a new tab but dont focus on it (open in background)
         const card = cardTitle.parentElement;
 
         card.addEventListener('click', () => {
-            window.open(data[cont].link, '_blank');
+            window.open(data.original[cont].link, '_blank');
         });
         
-
+    
         
         
     });
@@ -51,7 +54,8 @@ async function getNews(lang) {
 
     // json
     const data = await response.json();
-    console.log(data);
+    
+   
     return data;
     
 }
