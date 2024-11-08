@@ -1,14 +1,9 @@
-
-
 const cards = document.querySelectorAll('.ag-courses_item');
 const cardTitles = document.querySelectorAll('.ag-courses-item_title');
 const cardDate = document.querySelectorAll('.ag-courses-item_date');
 const cardDescription = document.querySelectorAll('.ag-courses-item_description');
 
-
-
 let fetchedData = [];
-
 
 async function setNews() {
     const lang = localStorage.getItem("lang");
