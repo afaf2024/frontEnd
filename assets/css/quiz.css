@@ -28,17 +28,10 @@ html {
 
     display: none;
     object-fit: cover;
-    width: 45vw !important;
-    height: 50vh !important;
+    width: 100% !important;
+    height: auto !important;
     max-width: 700px !important;
 
-}
-
-@media screen and (max-width: 768px) {
-    #quizTestImage {
-        width: 60vw !important;
-        height: 25vh !important;
-    }
 }
 
 
@@ -56,7 +49,8 @@ html {
 }
 
 .quizButton {
-    width: 100px;
+    max-width: 130px;
+    max-height: 140px;
     align-content: center;
     justify-content: center;
     text-align: center;
@@ -67,25 +61,45 @@ html {
     margin-right: 30px;
     margin-top: 15px;
     gap: 30px;
-    border: 2px solid;
-    border-radius: 50px;
+    overflow: hidden;
 }
-#quizButtonTrue{
-    border-color: var(--bs-green);
-   
+
+
+.quizButtonBorder{
+    width: 120px;
+    height: 120px;
+    border: 1px solid;
+    border-radius: 50%;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    
 }
+
+#quizButtonTrue .quizButtonBorder{
+    border-color: #00964f;
+    box-shadow: inset 0 0 15px 0.2px #00964f;
+}
+
+#quizButtonFalse .quizButtonBorder{
+    border-color: #e20613;
+    box-shadow: inset 0 0 15px 0.2px #e20613;
+}
+
 #quizButtonTrue:hover{
-background-color: var(--bs-green);
-transition: background-color 0.2s;
+    box-shadow: inset 0 0 40px 0.2px #00964f;
+    transition: box-shadow 0.5s;
+    border-radius: 50%;
 }
 
-#quizButtonFalse{
-    border-color: var(--bs-red);
-
-}
 #quizButtonFalse:hover{
-    background-color: var(--bs-red);
-    transition: background-color 0.2s;
+    box-shadow: inset 0 0 40px 0.2px #e20613;
+    transition: box-shadow 0.5s;
+    border-radius: 50%;
+}
+
+#quizButtonFalse .quizButtonBorder{
+    border-color: var(--bs-red);
 }
 
 #quizButtonRestart {
@@ -155,7 +169,18 @@ transition: background-color 0.2s;
 
 .quizButton img {
     height: 100%;
-    width: 100%;
+    width: auto;
+    margin-top:-8px;
+    max-height: 138.5px !important;
+}
+
+#quizButtonTrue img{
+    margin-left: 5px;
+}
+
+#quizButtonFalse img{
+    margin-right: 5px;
+    margin-top: -6px;
 }
 
 
