@@ -4,7 +4,7 @@ const livereload = require('livereload');
 const connectLiveReload = require('connect-livereload');
 const cors = require("cors");
 
-const app = expres
+const app = express();
 
 
 const PORT = 3000; 
