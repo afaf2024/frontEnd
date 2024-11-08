@@ -23,6 +23,7 @@
 
 .footer-logos img {
     max-height: 100px;
+
 }
 
 #footer-line2 {
@@ -68,4 +69,22 @@
 
 .impressum-link{
     color: white;
+    width: fit-content;
+    margin-left: auto;
+    display: block;
+}
+
+.footer-img-link{
+    width: 80%;
+    margin: 0 auto;
+}
+
+@media (max-width:1200px){
+    #erasmus-img{
+        margin-left: 0 !important;
+    }
+    .footer-text-area{
+        width: 80%;
+        margin: 0 auto;
+    }
 }
