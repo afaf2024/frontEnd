@@ -23,7 +23,9 @@ async function setNews() {
         
         cardTitle.innerHTML = data.original[++cont].title;
         cardDate[cont].innerHTML = data.original[cont].pubDate;
-        cardDescription[cont].innerHTML = data.original[cont].description;
+        cardDescription[cont].innerHTML = data.original[cont].description.length > 60 
+        ? data.original[cont].description.slice(0, 60) + '...'
+        : data.original[cont].description;
         
 
         
