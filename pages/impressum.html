@@ -8,32 +8,47 @@
 
     <title>Impressum</title>
 </head>
-<body>
-    <h1 id="impressum-headline">Impressum</h1>
-    <p data-i18n-key="impressum-project-name"><strong>Project Name</strong> Another Fake, Another Fact</p>
-    <p data-i18n-key="impressum-responsible-content" class="impressum"><strong>Responsible for Content (according to § 5 TMG):</strong></p>
-    <ul>
-        <li data-i18n-key="impressum-school-names"><strong>School Name(s)</strong></li>
+<body class="impressum-page">
+    <div id="navigation"></div>
+
+    <div class="container my-5 pt-5">
+        <h1>Impressum</h1>
+        <p data-i18n-key="impressum-project-name"></p>
+        <p data-i18n-key="impressum-responsible-content"></p>
         <ul>
-            <li data-i18n-key="impressum-school-names-li1">Associazione Formazione Professionale Patronato San Vincenzo</li>
-            <li data-i18n-key="impressum-school-names-li2">Georg Simon Ohm Berufskolleg</li>
-            <li data-i18n-key="impressum-school-names-li3">Instituto de Educacion Secundaria Zaidin-Vergeles</li>
+            <li data-i18n-key="impressum-school-names"></li>
+            <ul>
+                <li data-i18n-key="impressum-school-names-li1"></li>
+                <li data-i18n-key="impressum-school-names-li2"></li>
+                <li data-i18n-key="impressum-school-names-li3"></li>
+            </ul>
+            <li data-i18n-key="impressum-addr-contact-information"></li>
+            <ul>
+                <li data-i18n-key="impressum-addr-contact-information-li1"></li>
+                <li data-i18n-key="impressum-addr-contact-information-li2"></li>
+                <li data-i18n-key="impressum-addr-contact-information-li3"></li>
+            </ul>
         </ul>
-        <li data-i18n-key="impressum-addr-contact-information"></li>
+        <p data-i18n-key="impressum-project-partnes"></p>
+        <p data-i18n-key="impressum-editorial-responsibility"></p>
         <ul>
-            <li data-i18n-key="impressum-addr-contact-information-li1"></li>
-            <li data-i18n-key="impressum-addr-contact-information-li2"></li>
-            <li data-i18n-key="impressum-addr-contact-information-li3"></li>
+            <li data-i18n-key="impressum-editorial-responsibility-content"></li>
         </ul>
-    </ul>
-    <p data-i18n-key="impressum-project-partnes"></p>
-    <p data-i18n-key="impressum-editorial-responsibility"></p>
-    <ul>
-        <li data-i18n-key="impressum-editorial-responsibility-content"></li>
-    </ul>
-    <p data-i18n-key="impressum-dislaimer"></p>
-    <ul>
-        <li data-i18n-key="impressum-disclaimer-content"></li>
-    </ul>
+        <p data-i18n-key="impressum-dislaimer"></p>
+        <ul>
+            <li data-i18n-key="impressum-disclaimer-content"></li>
+        </ul>
+    </div>
+
+    <div id="footerBox"></div>
+
+    <script src="../modules/footer/footer.js"></script>
+    <script type="module">
+      window.addEventListener("load", function () {
+        insertNavigation();
+      });
+    </script>
+    <script src="../modules/language-switcher/language.js"></script>
+    <script src="../modules/navigation/navigation.js"></script>
 </body>
 </html>

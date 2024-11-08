@@ -43,6 +43,9 @@ async function setNews() {
 
 
 async function getNews(lang) {
+    if (!lang) {
+        lang = 'en';
+    }
 
     const response = await fetch(`https://erasmus.ieszaidinvergeles.es/fakeNews/public/api/news/${lang}`, {
         method: 'GET',
