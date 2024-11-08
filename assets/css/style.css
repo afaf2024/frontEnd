@@ -163,6 +163,12 @@
 .about-page .footerContainer {
   background-color: #2ea1d9;
 }
+.impressum-page .footerContainer{
+  background-color: #f1f1f1;
+}
+.impressum-page #footer-text p, .impressum-page #footer-text h2{
+  color: black !important;
+}
 
 
 .foooterDesign a {

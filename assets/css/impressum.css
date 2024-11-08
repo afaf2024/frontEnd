@@ -1,3 +1,12 @@
 #impressum-headline{
     margin-bottom: 2%;
+    color: black;
+}
+
+#impressum-project-partners{
+    font-size: 1rem;
+}
+
+#impressum-project-partners strong{
+    font-size: 1.4rem;
 }
