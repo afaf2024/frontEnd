@@ -52,5 +52,22 @@
   "privacyPolicyFourthEntry": "<strong>Ihre Datenschutzrechte</strong><ul><li>Da wir keine persönlichen Daten sammeln, werden keine Benutzerinformationen gespeichert, die Zugriff, Änderung oder Löschung erfordern. Die Nutzer werden ermutigt, die Cookie-Präferenzen über ihre Browser-Einstellungen zu verwalten, falls gewünscht.</li></ul>",
   "privacyPolicyFithEntry": "<strong>Datensicherheit</strong><ul><li>Obwohl wir keine persönlichen Daten sammeln, legen wir großen Wert auf die Sicherheit und Integrität unserer Website und aller damit verbundenen Ressourcen. Es gibt grundlegende Sicherheitsmaßnahmen, um die Website vor unbefugtem Zugriff zu schützen und ein sicheres Nutzererlebnis zu gewährleisten.</li></ul>",
   "privacyPolicySixthEntry": "<strong>Kontaktinformationen</strong><ul><li>Wenn Sie Fragen zu dieser Datenschutzrichtlinie oder zum Projekt haben, finden Sie die Kontaktdaten der einzelnen Partnerschulen, die an diesem Projekt beteiligt sind auf der Über-uns-Seite.</li></ul>",
-  "privacyPolicyEnding": "Vielen Dank für die Verwendung von „Another Fake, another Fact“ und die Unterstützung unserer Mission, eine gut informierte, medienkompetente Gemeinschaft zu schaffen!"
+  "privacyPolicyEnding": "Vielen Dank für die Verwendung von „Another Fake, another Fact“ und die Unterstützung unserer Mission, eine gut informierte, medienkompetente Gemeinschaft zu schaffen!",
+
+  "impressum-project-name": "<strong>Projekt Name</strong> Another Fake, Another Fact",
+  "impressum-responsible-content": "<strong>Verantwortlich für den Inhalt (nach § 5 TMG):</strong>",
+  "impressum-school-names": "<strong>Name(n) der Schule(n)</strong>",
+  "impressum-school-names-li1": "Associazione Formazione Professionale Patronato San Vincenzo",
+  "impressum-school-names-li2": "Georg Simon Ohm Berufskolleg",
+  "impressum-school-names-li3": "Instituto de Educacion Secundaria Zaidin-Vergeles",
+  "impressum-addr-contact-information": "<strong>Address- und Kontaktinformationen</strong>",
+  "impressum-addr-contact-information-li1": "<strong>AFP Patronato San Vincenzo</strong><br>Address: Via Mauro Gavazzeni, 3, 24125, Bergamo, BG,Italy.<br>Phone number: +39 035 319361<br>Email: info@patronatosanvincenzo.it",
+  "impressum-addr-contact-information-li2": "<strong>Georg-Simon-Ohm Berufsschule</strong><br>Address: Berufskolleg Westerwaldstrasse 92<br>51105 Köln<br>Phone number: +49 0221 83913-0<br>Email: buero@gso.schule.koeln",
+  "impressum-addr-contact-information-li3": "<strong>IES Zaidin Vergels</strong><br>Address: C/Primavera, 26-28, 18008 Granada, Andalucía, ESP<br>Phone number: +34 958 893850<br>Email: secretaria@ieszaidinvergers.org",
+  "impressum-project-partners": "<strong>Projekt Partner</strong><br>Diese Website ist Teil einer pädagogischen Zusammenarbeit zwischen drei Schulen in Italien, Spanien und Deutschland, die durch eine EU-finanzierte Initiative unterstützt wird.",
+  "impressum-editorial-responsibility": "<strong>Redaktionelle Verantwortung:</strong>",
+  "impressum-editorial-responsibility-content": "Der Inhalt dieser Website wird von den Projektteams und den teilnehmenden Schulen verwaltet und gepflegt. Für weitere Informationen besuchen Sie bitte unsere <a href='aboutUs.html'>About Us</a>",
+  "impressum-disclaimer": "<strong>Haftungsausschluss:</strong>",
+  "impressum-disclaimer-content": "Der Inhalt dieser Website ist ausschließlich für Bildungszwecke bestimmt. Das Projekt zielt darauf ab, das Bewusstsein für Fake News zu schärfen und die Medienkompetenz zu fördern. Trotz unserer Bemühungen um Genauigkeit können wir nicht für die Vollständigkeit oder Richtigkeit der Nachrichteninhalte garantieren, die über Feeds Dritter bereitgestellt werden."
+
 }
