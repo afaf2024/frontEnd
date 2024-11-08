@@ -42,8 +42,6 @@ function game(text) {
         document.getElementById('quizButtonRestart').style.display = 'none';
         location.reload();
     });
-
-
 }
 
 //checkAnswer
@@ -60,10 +58,7 @@ function checkAnswer(buttonValidation) {
     } else {
         // document.getElementById('quizResult').textContent = 'You Failed!';
         document.getElementById('quizResult').innerHTML = `You Failed! <span class="material-symbols-outlined" id="close">close</span>`;
-    }
-   
-  
-   
+    }   
 }
 
 //hideButtons
