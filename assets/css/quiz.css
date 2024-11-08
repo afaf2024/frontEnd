@@ -133,9 +133,9 @@ html {
     margin: 5px;
 }
 
-img {
+.quizButton img {
+    height: 100%;
     width: 100%;
-    height: auto;
 }
 
 
