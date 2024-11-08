@@ -37,6 +37,7 @@
     max-height: 78px;
     margin-top: 2px !important;
     margin-left: auto;
+    display: block;
 }
 
 .logos img {
