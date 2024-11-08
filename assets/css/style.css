@@ -154,7 +154,7 @@
 .quiz-page .footerContainer {
   background-color: #f59c2c;
 }
-.quiz-page #footer-text p, .quiz-page #footer-text h2, .quiz-page #footer-text a{
+.quiz-page #footer-text p, .quiz-page #footer-text h2, .quiz-page .impressum-link{
   color: black !important;
 }
 .information-page .footerContainer {
@@ -166,8 +166,11 @@
 .impressum-page .footerContainer{
   background-color: #f1f1f1;
 }
-.impressum-page #footer-text p, .impressum-page #footer-text h2{
+.impressum-page #footer-text p, .impressum-page #footer-text h2, .impressum-page .impressum-link{
   color: black !important;
+}
+.impressum-page .impressum-link{
+  display: none;
 }
 
 
