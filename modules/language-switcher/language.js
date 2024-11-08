@@ -136,9 +136,6 @@ function translateElement(element) {
     const translation = translations[key];
 
     element.innerHTML = translation;
-
-
-
 }
 
 function translateNavigation() {
