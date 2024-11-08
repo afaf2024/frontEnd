@@ -67,6 +67,22 @@
   "privacyPolicySixthEntry": "<strong>Información de Contacto</strong><ul><li>Si tienes alguna pregunta sobre esta política de privacidad o sobre el proyecto, por favor visita nuestra página Acerca de Nosotros, donde puedes encontrar los datos de contacto de cada una de las escuelas asociadas en este proyecto.</li></ul>",
   "privacyPolicyEnding": "¡Gracias por usar “Another Fake, another Fact” y apoyar nuestra misión de crear una comunidad bien informada y consciente de los medios!",
 
+  "impressum-project-name": "<strong>Nombre del proyecto</strong> Another Fake, Another Fact",
+  "impressum-responsible-content": "<strong>Responsable de Contenidos (según § 5 TMG):</strong>",
+  "impressum-school-names": "<strong>Nombre de la escuela</strong>",
+  "impressum-school-names-li1": "Associazione Formazione Professionale Patronato San Vincenzo",
+  "impressum-school-names-li2": "Georg Simon Ohm Berufskolleg",
+  "impressum-school-names-li3": "Instituto de Educacion Secundaria Zaidin-Vergeles",
+  "impressum-addr-contact-information": "<strong>Dirección e información de contacto</strong>",
+  "impressum-addr-contact-information-li1": "<strong>AFP Patronato San Vincenzo</strong><br>Address: Via Mauro Gavazzeni, 3, 24125, Bergamo, BG,Italy.<br>Phone number: +39 035 319361<br>Email: info@patronatosanvincenzo.it",
+  "impressum-addr-contact-information-li2": "<strong>Georg-Simon-Ohm Berufsschule</strong><br>Address: Berufskolleg Westerwaldstrasse 92<br>51105 Cologne<br>Phone number: +49 0221 83913-0<br>Email: buero@gso.schule.koeln",
+  "impressum-addr-contact-information-li3": "<strong>IES Zaidin Vergels</strong><br>Address: C/Primavera, 26-28, 18008 Granada, Andalucía, ESP<br>Phone number: +34 958 893850<br>Email: secretaria@ieszaidinvergers.org",
+  "impressum-project-partners": "<strong>Socios del proyecto</strong><br>Este sitio web forma parte de una colaboración educativa entre tres escuelas de Italia, Alemania y España, apoyada por una iniciativa financiada por la UE.",
+  "impressum-editorial-responsibility": "<strong>Responsabilidad editorial:</strong>",
+  "impressum-editorial-responsibility-content": "Los contenidos de este sitio web son gestionados y mantenidos por los equipos de proyecto de los centros participantes. Para más información, visite <a href='aboutUs.html'>About Us</a>",
+  "impressum-disclaimer": "<strong>Descargo de responsabilidad:</strong>",
+  "impressum-disclaimer-content": "El contenido de este sitio tiene únicamente fines educativos. El proyecto pretende concienciar sobre las noticias falsas y promover la alfabetización mediática. A pesar de nuestros esfuerzos por asegurar la exactitud, no podemos garantizar la integridad o exactitud del contenido de las noticias proporcionadas a través de fuentes de terceros."
+
 
   "impressum-project-name": "<strong>Nombre del Proyecto</strong> Otro Fake, Otro Hecho",
   "impressum-responsible-content": "<strong>Responsable del Contenido (según § 5 TMG):</strong>",
