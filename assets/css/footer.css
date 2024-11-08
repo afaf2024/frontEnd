@@ -33,10 +33,11 @@
     width: 80%;
 }
 #erasmus-img {
-    width: 286px;
-    height: 78px;
+    width: auto;
+    max-height: 78px;
     margin-top: 2px !important;
     margin-left: auto;
+    display: block;
 }
 
 .logos img {
@@ -74,16 +75,17 @@
     display: block;
 }
 
-.footer-img-link{
-    width: 80%;
-    margin: 0 auto;
-}
+
 
 @media (max-width:1200px){
     #erasmus-img{
         margin-left: 0 !important;
     }
     .footer-text-area{
+        width: 80%;
+        margin: 0 auto;
+    }
+    .footer-img-link{
         width: 80%;
         margin: 0 auto;
     }
