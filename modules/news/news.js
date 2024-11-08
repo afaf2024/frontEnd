@@ -15,17 +15,18 @@ async function setNews() {
     
     const data = await getNews(lang);
     
-    console.log(data.original[0])
+    
+
 
     let cont = -1;
 
     cardTitles.forEach(cardTitle => {
         
-        cardTitle.innerHTML = data.original[++cont].title;
-        cardDate[cont].innerHTML = data.original[cont].pubDate;
-        cardDescription[cont].innerHTML = data.original[cont].description.length > 60 
-        ? data.original[cont].description.slice(0, 60) + '...'
-        : data.original[cont].description;
+        cardTitle.innerHTML = data[++cont].title;
+        cardDate[cont].innerHTML = data[cont].pubDate;
+        cardDescription[cont].innerHTML = data[cont].description.length > 60 
+        ? data[cont].description.slice(0, 60) + '...'
+        : data[cont].description;
         
 
         
